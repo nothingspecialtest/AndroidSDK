@@ -1,0 +1,28 @@
+
+
+
+In a standard GitHub Codespace, the $HOME environment variable points to the home directory of the default container user.
+You can check the exact value yourself by running one of these commands in your Codespace 
+terminal:echo $HOME
+
+Persisted Data: Only files in /workspaces are guaranteed to persist if the Codespace is rebuilt. Files stored directly in /home/vscode may be lost during a container rebuild unless explicitly configured in your devcontainer.json.
+
+echo $HOME
+home/codespace
+
+Your Project Code: /workspaces/<repository-name> (this is where your cloned repository lives, not inside $HOME
+
+/workspace/AndroidSDK
+
+cd ~
+mkdir ndk
+cd ndk
+
+wget https://dl.google.com/android/repository/android-ndk-r27d-linux.zip
+unzip *.zip
+
+cd /workspaces/AndroidSDK/
+
+
+
+
