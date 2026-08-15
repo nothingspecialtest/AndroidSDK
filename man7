@@ -1,0 +1,413 @@
+total 2628
+drwxr-xr-x 1 root root  32768 Aug 14 17:04 .
+-rw-r--r-- 1 root root   1791 Jul 29 16:55 EVP_ASYM_CIPHER-RSA.7ssl.gz
+-rw-r--r-- 1 root root   1302 Jul 29 16:55 EVP_ASYM_CIPHER-SM2.7ssl.gz
+-rw-r--r-- 1 root root   2077 Jul 29 16:55 EVP_CIPHER-AES.7ssl.gz
+-rw-r--r-- 1 root root   1556 Jul 29 16:55 EVP_CIPHER-ARIA.7ssl.gz
+-rw-r--r-- 1 root root   1318 Jul 29 16:55 EVP_CIPHER-BLOWFISH.7ssl.gz
+-rw-r--r-- 1 root root   1510 Jul 29 16:55 EVP_CIPHER-CAMELLIA.7ssl.gz
+-rw-r--r-- 1 root root   1405 Jul 29 16:55 EVP_CIPHER-CAST.7ssl.gz
+-rw-r--r-- 1 root root   1304 Jul 29 16:55 EVP_CIPHER-CHACHA.7ssl.gz
+-rw-r--r-- 1 root root   1497 Jul 29 16:55 EVP_CIPHER-DES.7ssl.gz
+-rw-r--r-- 1 root root   1332 Jul 29 16:55 EVP_CIPHER-IDEA.7ssl.gz
+-rw-r--r-- 1 root root   1601 Jul 29 16:55 EVP_CIPHER-NULL.7ssl.gz
+-rw-r--r-- 1 root root   1368 Jul 29 16:55 EVP_CIPHER-RC2.7ssl.gz
+-rw-r--r-- 1 root root   1307 Jul 29 16:55 EVP_CIPHER-RC4.7ssl.gz
+-rw-r--r-- 1 root root   1364 Jul 29 16:55 EVP_CIPHER-RC5.7ssl.gz
+-rw-r--r-- 1 root root   1335 Jul 29 16:55 EVP_CIPHER-SEED.7ssl.gz
+-rw-r--r-- 1 root root   1342 Jul 29 16:55 EVP_CIPHER-SM4.7ssl.gz
+-rw-r--r-- 1 root root   2761 Jul 29 16:55 EVP_KDF-HKDF.7ssl.gz
+-rw-r--r-- 1 root root   2702 Jul 29 16:55 EVP_KDF-KB.7ssl.gz
+-rw-r--r-- 1 root root   2307 Jul 29 16:55 EVP_KDF-KRB5KDF.7ssl.gz
+-rw-r--r-- 1 root root   1830 Jul 29 16:55 EVP_KDF-PBKDF1.7ssl.gz
+-rw-r--r-- 1 root root   2066 Jul 29 16:55 EVP_KDF-PBKDF2.7ssl.gz
+-rw-r--r-- 1 root root   1976 Jul 29 16:55 EVP_KDF-PKCS12KDF.7ssl.gz
+-rw-r--r-- 1 root root   3011 Jul 29 16:55 EVP_KDF-SCRYPT.7ssl.gz
+-rw-r--r-- 1 root root   2528 Jul 29 16:55 EVP_KDF-SS.7ssl.gz
+-rw-r--r-- 1 root root   2597 Jul 29 16:55 EVP_KDF-SSHKDF.7ssl.gz
+-rw-r--r-- 1 root root   2462 Jul 29 16:55 EVP_KDF-TLS13_KDF.7ssl.gz
+-rw-r--r-- 1 root root   2198 Jul 29 16:55 EVP_KDF-TLS1_PRF.7ssl.gz
+-rw-r--r-- 1 root root   2694 Jul 29 16:55 EVP_KDF-X942-ASN1.7ssl.gz
+-rw-r--r-- 1 root root   1304 Jul 29 16:55 EVP_KDF-X942-CONCAT.7ssl.gz
+-rw-r--r-- 1 root root   2104 Jul 29 16:55 EVP_KDF-X963.7ssl.gz
+-rw-r--r-- 1 root root   1587 Jul 29 16:55 EVP_KEM-RSA.7ssl.gz
+-rw-r--r-- 1 root root   2421 Jul 29 16:55 EVP_KEYEXCH-DH.7ssl.gz
+-rw-r--r-- 1 root root   2338 Jul 29 16:55 EVP_KEYEXCH-ECDH.7ssl.gz
+-rw-r--r-- 1 root root   1388 Jul 29 16:55 EVP_KEYEXCH-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     26 Jul 29 16:55 EVP_KEYEXCH-X448.7ssl.gz -> EVP_KEYEXCH-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_KEYMGMT-CMAC.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     19 Jul 29 16:55 EVP_KEYMGMT-DH.7ssl.gz -> EVP_PKEY-DH.7ssl.gz
+lrwxrwxrwx 1 root root     19 Jul 29 16:55 EVP_KEYMGMT-DHX.7ssl.gz -> EVP_PKEY-DH.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_KEYMGMT-DSA.7ssl.gz -> EVP_PKEY-DSA.7ssl.gz
+lrwxrwxrwx 1 root root     19 Jul 29 16:55 EVP_KEYMGMT-EC.7ssl.gz -> EVP_PKEY-EC.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_KEYMGMT-ED25519.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_KEYMGMT-ED448.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_KEYMGMT-HMAC.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_KEYMGMT-Poly1305.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_KEYMGMT-RSA.7ssl.gz -> EVP_PKEY-RSA.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_KEYMGMT-SM2.7ssl.gz -> EVP_PKEY-SM2.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_KEYMGMT-Siphash.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_KEYMGMT-X25519.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_KEYMGMT-X448.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+-rw-r--r-- 1 root root   1894 Jul 29 16:55 EVP_MAC-BLAKE2.7ssl.gz
+lrwxrwxrwx 1 root root     22 Jul 29 16:55 EVP_MAC-BLAKE2BMAC.7ssl.gz -> EVP_MAC-BLAKE2.7ssl.gz
+lrwxrwxrwx 1 root root     22 Jul 29 16:55 EVP_MAC-BLAKE2SMAC.7ssl.gz -> EVP_MAC-BLAKE2.7ssl.gz
+-rw-r--r-- 1 root root   1733 Jul 29 16:55 EVP_MAC-CMAC.7ssl.gz
+-rw-r--r-- 1 root root   1718 Jul 29 16:55 EVP_MAC-GMAC.7ssl.gz
+-rw-r--r-- 1 root root   1886 Jul 29 16:55 EVP_MAC-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   2546 Jul 29 16:55 EVP_MAC-KMAC.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_MAC-KMAC128.7ssl.gz -> EVP_MAC-KMAC.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_MAC-KMAC256.7ssl.gz -> EVP_MAC-KMAC.7ssl.gz
+-rw-r--r-- 1 root root   1625 Jul 29 16:55 EVP_MAC-Poly1305.7ssl.gz
+-rw-r--r-- 1 root root   1626 Jul 29 16:55 EVP_MAC-Siphash.7ssl.gz
+-rw-r--r-- 1 root root   1335 Jul 29 16:55 EVP_MD-BLAKE2.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 EVP_MD-KECCAK-KMAC.7ssl.gz -> EVP_MD-SHAKE.7ssl.gz
+-rw-r--r-- 1 root root   1255 Jul 29 16:55 EVP_MD-MD2.7ssl.gz
+-rw-r--r-- 1 root root   1255 Jul 29 16:55 EVP_MD-MD4.7ssl.gz
+-rw-r--r-- 1 root root   1648 Jul 29 16:55 EVP_MD-MD5-SHA1.7ssl.gz
+-rw-r--r-- 1 root root   1254 Jul 29 16:55 EVP_MD-MD5.7ssl.gz
+-rw-r--r-- 1 root root   1469 Jul 29 16:55 EVP_MD-MDC2.7ssl.gz
+-rw-r--r-- 1 root root   1317 Jul 29 16:55 EVP_MD-NULL.7ssl.gz
+-rw-r--r-- 1 root root   1328 Jul 29 16:55 EVP_MD-RIPEMD160.7ssl.gz
+-rw-r--r-- 1 root root   1640 Jul 29 16:55 EVP_MD-SHA1.7ssl.gz
+-rw-r--r-- 1 root root   1444 Jul 29 16:55 EVP_MD-SHA2.7ssl.gz
+-rw-r--r-- 1 root root   1337 Jul 29 16:55 EVP_MD-SHA3.7ssl.gz
+-rw-r--r-- 1 root root   1946 Jul 29 16:55 EVP_MD-SHAKE.7ssl.gz
+-rw-r--r-- 1 root root   1254 Jul 29 16:55 EVP_MD-SM3.7ssl.gz
+-rw-r--r-- 1 root root   1263 Jul 29 16:55 EVP_MD-WHIRLPOOL.7ssl.gz
+-rw-r--r-- 1 root root   1469 Jul 29 16:55 EVP_MD-common.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_PKEY-CMAC.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   4716 Jul 29 16:55 EVP_PKEY-DH.7ssl.gz
+lrwxrwxrwx 1 root root     19 Jul 29 16:55 EVP_PKEY-DHX.7ssl.gz -> EVP_PKEY-DH.7ssl.gz
+-rw-r--r-- 1 root root   2382 Jul 29 16:55 EVP_PKEY-DSA.7ssl.gz
+-rw-r--r-- 1 root root   4585 Jul 29 16:55 EVP_PKEY-EC.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_PKEY-ED25519.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_PKEY-ED448.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+-rw-r--r-- 1 root root   3536 Jul 29 16:55 EVP_PKEY-FFC.7ssl.gz
+-rw-r--r-- 1 root root   1906 Jul 29 16:55 EVP_PKEY-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_PKEY-Poly1305.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   3651 Jul 29 16:55 EVP_PKEY-RSA.7ssl.gz
+-rw-r--r-- 1 root root   2240 Jul 29 16:55 EVP_PKEY-SM2.7ssl.gz
+lrwxrwxrwx 1 root root     21 Jul 29 16:55 EVP_PKEY-Siphash.7ssl.gz -> EVP_PKEY-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   2072 Jul 29 16:55 EVP_PKEY-X25519.7ssl.gz
+lrwxrwxrwx 1 root root     23 Jul 29 16:55 EVP_PKEY-X448.7ssl.gz -> EVP_PKEY-X25519.7ssl.gz
+-rw-r--r-- 1 root root   2084 Jul 29 16:55 EVP_RAND-CTR-DRBG.7ssl.gz
+-rw-r--r-- 1 root root   1975 Jul 29 16:55 EVP_RAND-HASH-DRBG.7ssl.gz
+-rw-r--r-- 1 root root   1996 Jul 29 16:55 EVP_RAND-HMAC-DRBG.7ssl.gz
+-rw-r--r-- 1 root root   1859 Jul 29 16:55 EVP_RAND-SEED-SRC.7ssl.gz
+-rw-r--r-- 1 root root   2195 Jul 29 16:55 EVP_RAND-TEST-RAND.7ssl.gz
+-rw-r--r-- 1 root root   5212 Jul 29 16:55 EVP_RAND.7ssl.gz
+lrwxrwxrwx 1 root root     26 Jul 29 16:55 EVP_SIGNATURE-CMAC.7ssl.gz -> EVP_SIGNATURE-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   1480 Jul 29 16:55 EVP_SIGNATURE-DSA.7ssl.gz
+-rw-r--r-- 1 root root   1478 Jul 29 16:55 EVP_SIGNATURE-ECDSA.7ssl.gz
+-rw-r--r-- 1 root root   2355 Jul 29 16:55 EVP_SIGNATURE-ED25519.7ssl.gz
+lrwxrwxrwx 1 root root     29 Jul 29 16:55 EVP_SIGNATURE-ED448.7ssl.gz -> EVP_SIGNATURE-ED25519.7ssl.gz
+-rw-r--r-- 1 root root   1526 Jul 29 16:55 EVP_SIGNATURE-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     26 Jul 29 16:55 EVP_SIGNATURE-Poly1305.7ssl.gz -> EVP_SIGNATURE-HMAC.7ssl.gz
+-rw-r--r-- 1 root root   2010 Jul 29 16:55 EVP_SIGNATURE-RSA.7ssl.gz
+lrwxrwxrwx 1 root root     26 Jul 29 16:55 EVP_SIGNATURE-Siphash.7ssl.gz -> EVP_SIGNATURE-HMAC.7ssl.gz
+lrwxrwxrwx 1 root root     29 Jul 29 16:55 Ed25519.7ssl.gz -> EVP_SIGNATURE-ED25519.7ssl.gz
+lrwxrwxrwx 1 root root     29 Jul 29 16:55 Ed448.7ssl.gz -> EVP_SIGNATURE-ED25519.7ssl.gz
+lrwxrwxrwx 1 root root     27 Jul 29 16:55 OPENSSL_API_COMPAT.7ssl.gz -> openssl_user_macros.7ssl.gz
+lrwxrwxrwx 1 root root     27 Jul 29 16:55 OPENSSL_NO_DEPRECATED.7ssl.gz -> openssl_user_macros.7ssl.gz
+-rw-r--r-- 1 root root   5179 Jul 29 16:55 OSSL_PROVIDER-FIPS.7ssl.gz
+-rw-r--r-- 1 root root   1792 Jul 29 16:55 OSSL_PROVIDER-base.7ssl.gz
+-rw-r--r-- 1 root root   3299 Jul 29 16:55 OSSL_PROVIDER-default.7ssl.gz
+-rw-r--r-- 1 root root   2016 Jul 29 16:55 OSSL_PROVIDER-legacy.7ssl.gz
+-rw-r--r-- 1 root root   1276 Jul 29 16:55 OSSL_PROVIDER-null.7ssl.gz
+-rw-r--r-- 1 root root   2386 Jul 29 16:55 RAND.7ssl.gz
+-rw-r--r-- 1 root root   1683 Jul 29 16:55 RSA-PSS.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 RSA.7ssl.gz -> EVP_PKEY-RSA.7ssl.gz
+lrwxrwxrwx 1 root root     20 Jul 29 16:55 SM2.7ssl.gz -> EVP_PKEY-SM2.7ssl.gz
+-rw-r--r-- 1 root root   1743 Jul 29 16:55 X25519.7ssl.gz
+lrwxrwxrwx 1 root root     14 Jul 29 16:55 X448.7ssl.gz -> X25519.7ssl.gz
+-rw-r--r-- 1 root root   2095 Jul 29 16:55 bio.7ssl.gz
+-rw-r--r-- 1 root root   8641 Jul 29 16:55 crypto.7ssl.gz
+-rw-r--r-- 1 root root   1560 Jul 29 16:55 ct.7ssl.gz
+-rw-r--r-- 1 root root   2882 Jul 29 16:55 des_modes.7ssl.gz
+-rw-r--r-- 1 root root   2503 Jul 29 16:55 evp.7ssl.gz
+-rw-r--r-- 1 root root   7662 Jul 29 16:55 fips_module.7ssl.gz
+-rw-r--r-- 1 root root   2362 Jul 29 16:55 life_cycle-cipher.7ssl.gz
+-rw-r--r-- 1 root root   1900 Jul 29 16:55 life_cycle-digest.7ssl.gz
+-rw-r--r-- 1 root root   1772 Jul 29 16:55 life_cycle-kdf.7ssl.gz
+-rw-r--r-- 1 root root   1853 Jul 29 16:55 life_cycle-mac.7ssl.gz
+-rw-r--r-- 1 root root   2719 Jul 29 16:55 life_cycle-pkey.7ssl.gz
+-rw-r--r-- 1 root root   1826 Jul 29 16:55 life_cycle-rand.7ssl.gz
+-rw-r--r-- 1 root root  24890 Jul 29 16:55 migration_guide.7ssl.gz
+-rw-r--r-- 1 root root   1412 Jul 29 16:55 openssl-core.h.7ssl.gz
+-rw-r--r-- 1 root root   1460 Jul 29 16:55 openssl-core_dispatch.h.7ssl.gz
+-rw-r--r-- 1 root root   1537 Jul 29 16:55 openssl-core_names.h.7ssl.gz
+-rw-r--r-- 1 root root   2255 Jul 29 16:55 openssl-env.7ssl.gz
+-rw-r--r-- 1 root root   3491 Jul 29 16:55 openssl-glossary.7ssl.gz
+-rw-r--r-- 1 root root   2885 Jul 29 16:55 openssl-threads.7ssl.gz
+-rw-r--r-- 1 root root   2151 Jul 29 16:55 openssl_user_macros.7ssl.gz
+-rw-r--r-- 1 root root   1924 Jul 29 16:55 ossl_store-file.7ssl.gz
+-rw-r--r-- 1 root root   1978 Jul 29 16:55 ossl_store.7ssl.gz
+-rw-r--r-- 1 root root   3812 Jul 29 16:55 passphrase-encoding.7ssl.gz
+-rw-r--r-- 1 root root   3399 Jul 29 16:55 property.7ssl.gz
+-rw-r--r-- 1 root root   4165 Jul 29 16:55 provider-asym_cipher.7ssl.gz
+-rw-r--r-- 1 root root  10456 Jul 29 16:55 provider-base.7ssl.gz
+-rw-r--r-- 1 root root   4271 Jul 29 16:55 provider-cipher.7ssl.gz
+-rw-r--r-- 1 root root   4717 Jul 29 16:55 provider-decoder.7ssl.gz
+-rw-r--r-- 1 root root   4305 Jul 29 16:55 provider-digest.7ssl.gz
+-rw-r--r-- 1 root root   4965 Jul 29 16:55 provider-encoder.7ssl.gz
+-rw-r--r-- 1 root root   4813 Jul 29 16:55 provider-kdf.7ssl.gz
+-rw-r--r-- 1 root root   3491 Jul 29 16:55 provider-kem.7ssl.gz
+-rw-r--r-- 1 root root   3883 Jul 29 16:55 provider-keyexch.7ssl.gz
+-rw-r--r-- 1 root root   6422 Jul 29 16:55 provider-keymgmt.7ssl.gz
+-rw-r--r-- 1 root root   3827 Jul 29 16:55 provider-mac.7ssl.gz
+-rw-r--r-- 1 root root   2978 Jul 29 16:55 provider-object.7ssl.gz
+-rw-r--r-- 1 root root   4711 Jul 29 16:55 provider-rand.7ssl.gz
+-rw-r--r-- 1 root root   5384 Jul 29 16:55 provider-signature.7ssl.gz
+-rw-r--r-- 1 root root   3773 Jul 29 16:55 provider-storemgmt.7ssl.gz
+-rw-r--r-- 1 root root   3696 Jul 29 16:55 provider.7ssl.gz
+-rw-r--r-- 1 root root   4978 Jul 29 16:55 proxy-certificates.7ssl.gz
+-rw-r--r-- 1 root root   2416 Jul 29 16:55 ssl.7ssl.gz
+-rw-r--r-- 1 root root   1790 Jul 29 16:55 x509.7ssl.gz
+-rw-r--r-- 1 root root   4508 Jul 28 15:04 bootup.7.gz
+-rw-r--r-- 1 root root  10046 Jul 28 15:04 daemon.7.gz
+-rw-r--r-- 1 root root   8051 Jul 28 15:04 file-hierarchy.7.gz
+-rw-r--r-- 1 root root   5182 Jul 28 15:04 kernel-command-line.7.gz
+lrwxrwxrwx 1 root root     17 Jul 28 15:04 sd-stub.7.gz -> systemd-stub.7.gz
+-rw-r--r-- 1 root root   1030 Jul 28 15:04 smbios-type-11.7.gz
+-rw-r--r-- 1 root root   5862 Jul 28 15:04 systemd-stub.7.gz
+-rw-r--r-- 1 root root  53851 Jul 28 15:04 systemd.directives.7.gz
+-rw-r--r-- 1 root root   2425 Jul 28 15:04 systemd.environment-generator.7.gz
+-rw-r--r-- 1 root root   5166 Jul 28 15:04 systemd.generator.7.gz
+-rw-r--r-- 1 root root   2992 Jul 28 15:04 systemd.image-policy.7.gz
+-rw-r--r-- 1 root root  14578 Jul 28 15:04 systemd.index.7.gz
+-rw-r--r-- 1 root root   5583 Jul 28 15:04 systemd.journal-fields.7.gz
+-rw-r--r-- 1 root root   6020 Jul 28 15:04 systemd.net-naming-scheme.7.gz
+-rw-r--r-- 1 root root   2700 Jul 28 15:04 systemd.offline-updates.7.gz
+-rw-r--r-- 1 root root  12053 Jul 28 15:04 systemd.special.7.gz
+-rw-r--r-- 1 root root   2635 Jul 28 15:04 systemd.syntax.7.gz
+-rw-r--r-- 1 root root   2022 Jul 28 15:04 systemd.system-credentials.7.gz
+-rw-r--r-- 1 root root   4639 Jul 28 15:04 systemd.time.7.gz
+-rw-r--r-- 1 root root   2323 Jul 16 13:44 PAM.7.gz
+lrwxrwxrwx 1 root root      8 Jul 16 13:44 pam.7.gz -> PAM.7.gz
+-rw-r--r-- 1 root root   4237 Jun 30 21:25 term.7.gz
+-rw-r--r-- 1 root root   2661 May  6 17:38 deb-version.7.gz
+-rw-r--r-- 1 root root   1806 May  6 17:38 dpkg-build-api.7.gz
+-rw-r--r-- 1 root root   9934 Apr 15 06:53 tc-hfsc.7.gz
+drwxr-xr-x 1 root root   4096 Mar 11 12:00 ..
+-rw-r--r-- 1 root root    623 Jan  5  2026 gnupg.7.gz
+-rw-r--r-- 1 root root   4181 Jul  2  2025 gitcli.7.gz
+-rw-r--r-- 1 root root  20940 Jul  2  2025 gitcore-tutorial.7.gz
+-rw-r--r-- 1 root root   4751 Jul  2  2025 gitcredentials.7.gz
+-rw-r--r-- 1 root root   3600 Jul  2  2025 gitcvs-migration.7.gz
+-rw-r--r-- 1 root root   5305 Jul  2  2025 gitdiffcore.7.gz
+-rw-r--r-- 1 root root   6266 Jul  2  2025 giteveryday.7.gz
+-rw-r--r-- 1 root root   8266 Jul  2  2025 gitfaq.7.gz
+-rw-r--r-- 1 root root  10427 Jul  2  2025 gitglossary.7.gz
+-rw-r--r-- 1 root root   2302 Jul  2  2025 gitnamespaces.7.gz
+-rw-r--r-- 1 root root   7679 Jul  2  2025 gitremote-helpers.7.gz
+-rw-r--r-- 1 root root   6903 Jul  2  2025 gitrevisions.7.gz
+-rw-r--r-- 1 root root   4361 Jul  2  2025 gitsubmodules.7.gz
+-rw-r--r-- 1 root root   5316 Jul  2  2025 gittutorial-2.7.gz
+-rw-r--r-- 1 root root   7524 Jul  2  2025 gittutorial.7.gz
+-rw-r--r-- 1 root root   6811 Jul  2  2025 gitworkflows.7.gz
+-rw-r--r-- 1 root root   2010 Mar 17  2025 debuginfod-client-config.7.gz
+-rw-r--r-- 1 root root   3134 Oct 22  2024 apt-patterns.7.gz
+-rw-r--r-- 1 root root   3525 Oct  2  2024 libbsd.7.gz
+-rw-r--r-- 1 root root   1568 Oct  2  2024 libmd.7.gz
+-rw-r--r-- 1 root root  12003 Apr 15  2024 cmake-buildsystem.7.gz
+-rw-r--r-- 1 root root 143270 Apr 15  2024 cmake-commands.7.gz
+-rw-r--r-- 1 root root   4216 Apr 15  2024 cmake-compile-features.7.gz
+-rw-r--r-- 1 root root   3293 Apr 15  2024 cmake-configure-log.7.gz
+-rw-r--r-- 1 root root   1630 Apr 15  2024 cmake-cxxmodules.7.gz
+-rw-r--r-- 1 root root   7845 Apr 15  2024 cmake-developer.7.gz
+-rw-r--r-- 1 root root   8252 Apr 15  2024 cmake-env-variables.7.gz
+-rw-r--r-- 1 root root  12344 Apr 15  2024 cmake-file-api.7.gz
+-rw-r--r-- 1 root root  19315 Apr 15  2024 cmake-generator-expressions.7.gz
+-rw-r--r-- 1 root root   8653 Apr 15  2024 cmake-generators.7.gz
+-rw-r--r-- 1 root root   7467 Apr 15  2024 cmake-language.7.gz
+-rw-r--r-- 1 root root 188652 Apr 15  2024 cmake-modules.7.gz
+-rw-r--r-- 1 root root   8482 Apr 15  2024 cmake-packages.7.gz
+-rw-r--r-- 1 root root  46433 Apr 15  2024 cmake-policies.7.gz
+-rw-r--r-- 1 root root  10365 Apr 15  2024 cmake-presets.7.gz
+-rw-r--r-- 1 root root  96693 Apr 15  2024 cmake-properties.7.gz
+-rw-r--r-- 1 root root   3470 Apr 15  2024 cmake-qt.7.gz
+-rw-r--r-- 1 root root    454 Apr 15  2024 cmake-server.7.gz
+-rw-r--r-- 1 root root   8204 Apr 15  2024 cmake-toolchains.7.gz
+-rw-r--r-- 1 root root  73690 Apr 15  2024 cmake-variables.7.gz
+-rw-r--r-- 1 root root  38781 Apr 15  2024 cpack-generators.7.gz
+-rw-r--r-- 1 root root   1517 Apr  8  2024 pkg.m4.7.gz
+-rw-r--r-- 1 root root   6000 Apr  8  2024 mawk-arrays.7.gz
+-rw-r--r-- 1 root root   5409 Apr  8  2024 mawk-code.7.gz
+-rw-r--r-- 1 root root   7661 Apr  8  2024 editline.7edit.gz
+-rw-r--r-- 1 root root   4599 Apr  2  2024 address_families.7.gz
+-rw-r--r-- 1 root root   4350 Apr  2  2024 aio.7.gz
+-rw-r--r-- 1 root root   1732 Apr  2  2024 armscii-8.7.gz
+-rw-r--r-- 1 root root   3560 Apr  2  2024 arp.7.gz
+-rw-r--r-- 1 root root   3108 Apr  2  2024 ascii.7.gz
+-rw-r--r-- 1 root root  10758 Apr  2  2024 attributes.7.gz
+-rw-r--r-- 1 root root   3489 Apr  2  2024 boot.7.gz
+-rw-r--r-- 1 root root   8377 Apr  2  2024 bootparam.7.gz
+-rw-r--r-- 1 root root  45133 Apr  2  2024 bpf-helpers.7.gz
+-rw-r--r-- 1 root root  16374 Apr  2  2024 capabilities.7.gz
+-rw-r--r-- 1 root root   2662 Apr  2  2024 cgroup_namespaces.7.gz
+-rw-r--r-- 1 root root  17034 Apr  2  2024 cgroups.7.gz
+-rw-r--r-- 1 root root   5439 Apr  2  2024 charsets.7.gz
+-rw-r--r-- 1 root root   1012 Apr  2  2024 complex.7.gz
+-rw-r--r-- 1 root root   2367 Apr  2  2024 cp1251.7.gz
+-rw-r--r-- 1 root root   2438 Apr  2  2024 cp1252.7.gz
+-rw-r--r-- 1 root root  13835 Apr  2  2024 cpuset.7.gz
+-rw-r--r-- 1 root root   3686 Apr  2  2024 credentials.7.gz
+-rw-r--r-- 1 root root   2649 Apr  2  2024 ddp.7.gz
+-rw-r--r-- 1 root root   3898 Apr  2  2024 environ.7.gz
+-rw-r--r-- 1 root root   6188 Apr  2  2024 epoll.7.gz
+-rw-r--r-- 1 root root  11778 Apr  2  2024 fanotify.7.gz
+-rw-r--r-- 1 root root   7794 Apr  2  2024 feature_test_macros.7.gz
+-rw-r--r-- 1 root root   1061 Apr  2  2024 fifo.7.gz
+lrwxrwxrwx 1 root root     24 Apr  2  2024 ftm.7.gz -> feature_test_macros.7.gz
+-rw-r--r-- 1 root root   2138 Apr  2  2024 futex.7.gz
+lrwxrwxrwx 1 root root      9 Apr  2  2024 glibc.7.gz -> libc.7.gz
+-rw-r--r-- 1 root root   2890 Apr  2  2024 glob.7.gz
+-rw-r--r-- 1 root root   5370 Apr  2  2024 hier.7.gz
+-rw-r--r-- 1 root root   1525 Apr  2  2024 hostname.7.gz
+-rw-r--r-- 1 root root   2728 Apr  2  2024 icmp.7.gz
+-rw-r--r-- 1 root root   4230 Apr  2  2024 inode.7.gz
+-rw-r--r-- 1 root root   9705 Apr  2  2024 inotify.7.gz
+-rw-r--r-- 1 root root    530 Apr  2  2024 intro.7.gz
+-rw-r--r-- 1 root root  14981 Apr  2  2024 ip.7.gz
+-rw-r--r-- 1 root root    861 Apr  2  2024 ipc_namespaces.7.gz
+-rw-r--r-- 1 root root   4721 Apr  2  2024 ipv6.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-1.7.gz -> iso_8859-1.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-10.7.gz -> iso_8859-10.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-11.7.gz -> iso_8859-11.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-13.7.gz -> iso_8859-13.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-14.7.gz -> iso_8859-14.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-15.7.gz -> iso_8859-15.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso-8859-16.7.gz -> iso_8859-16.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-2.7.gz -> iso_8859-2.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-3.7.gz -> iso_8859-3.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-4.7.gz -> iso_8859-4.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-5.7.gz -> iso_8859-5.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-6.7.gz -> iso_8859-6.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-7.7.gz -> iso_8859-7.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-8.7.gz -> iso_8859-8.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso-8859-9.7.gz -> iso_8859-9.7.gz
+-rw-r--r-- 1 root root   2277 Apr  2  2024 iso_8859-1.7.gz
+-rw-r--r-- 1 root root   2148 Apr  2  2024 iso_8859-10.7.gz
+-rw-r--r-- 1 root root   2250 Apr  2  2024 iso_8859-11.7.gz
+-rw-r--r-- 1 root root   2243 Apr  2  2024 iso_8859-13.7.gz
+-rw-r--r-- 1 root root   2125 Apr  2  2024 iso_8859-14.7.gz
+-rw-r--r-- 1 root root   2311 Apr  2  2024 iso_8859-15.7.gz
+-rw-r--r-- 1 root root   2228 Apr  2  2024 iso_8859-16.7.gz
+-rw-r--r-- 1 root root   2236 Apr  2  2024 iso_8859-2.7.gz
+-rw-r--r-- 1 root root   2083 Apr  2  2024 iso_8859-3.7.gz
+-rw-r--r-- 1 root root   2168 Apr  2  2024 iso_8859-4.7.gz
+-rw-r--r-- 1 root root   2062 Apr  2  2024 iso_8859-5.7.gz
+-rw-r--r-- 1 root root   1566 Apr  2  2024 iso_8859-6.7.gz
+-rw-r--r-- 1 root root   2222 Apr  2  2024 iso_8859-7.7.gz
+-rw-r--r-- 1 root root   1823 Apr  2  2024 iso_8859-8.7.gz
+-rw-r--r-- 1 root root   2238 Apr  2  2024 iso_8859-9.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_1.7.gz -> iso_8859-1.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_10.7.gz -> iso_8859-10.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_11.7.gz -> iso_8859-11.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_13.7.gz -> iso_8859-13.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_14.7.gz -> iso_8859-14.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_15.7.gz -> iso_8859-15.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 iso_8859_16.7.gz -> iso_8859-16.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_2.7.gz -> iso_8859-2.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_3.7.gz -> iso_8859-3.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_4.7.gz -> iso_8859-4.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_5.7.gz -> iso_8859-5.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_6.7.gz -> iso_8859-6.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_7.7.gz -> iso_8859-7.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_8.7.gz -> iso_8859-8.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 iso_8859_9.7.gz -> iso_8859-9.7.gz
+-rw-r--r-- 1 root root   1601 Apr  2  2024 kernel_lockdown.7.gz
+-rw-r--r-- 1 root root   9592 Apr  2  2024 keyrings.7.gz
+-rw-r--r-- 1 root root   2421 Apr  2  2024 koi8-r.7.gz
+-rw-r--r-- 1 root root   2488 Apr  2  2024 koi8-u.7.gz
+-rw-r--r-- 1 root root   6099 Apr  2  2024 landlock.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 latin1.7.gz -> iso_8859-1.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 latin10.7.gz -> iso_8859-16.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 latin2.7.gz -> iso_8859-2.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 latin3.7.gz -> iso_8859-3.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 latin4.7.gz -> iso_8859-4.7.gz
+lrwxrwxrwx 1 root root     15 Apr  2  2024 latin5.7.gz -> iso_8859-9.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 latin6.7.gz -> iso_8859-10.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 latin7.7.gz -> iso_8859-13.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 latin8.7.gz -> iso_8859-14.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 latin9.7.gz -> iso_8859-15.7.gz
+-rw-r--r-- 1 root root   1711 Apr  2  2024 libc.7.gz
+-rw-r--r-- 1 root root   4213 Apr  2  2024 locale.7.gz
+-rw-r--r-- 1 root root   2146 Apr  2  2024 mailaddr.7.gz
+-rw-r--r-- 1 root root  13166 Apr  2  2024 man-pages.7.gz
+-rw-r--r-- 1 root root     39 Apr  2  2024 man.7.gz
+-rw-r--r-- 1 root root   2532 Apr  2  2024 math_error.7.gz
+-rw-r--r-- 1 root root   9781 Apr  2  2024 mount_namespaces.7.gz
+-rw-r--r-- 1 root root   3971 Apr  2  2024 mq_overview.7.gz
+-rw-r--r-- 1 root root   4161 Apr  2  2024 namespaces.7.gz
+-rw-r--r-- 1 root root   3845 Apr  2  2024 netdevice.7.gz
+-rw-r--r-- 1 root root   6597 Apr  2  2024 netlink.7.gz
+-rw-r--r-- 1 root root    875 Apr  2  2024 network_namespaces.7.gz
+-rw-r--r-- 1 root root   1701 Apr  2  2024 nptl.7.gz
+-rw-r--r-- 1 root root   2262 Apr  2  2024 numa.7.gz
+-rw-r--r-- 1 root root    768 Apr  2  2024 operator.7.gz
+-rw-r--r-- 1 root root   7423 Apr  2  2024 packet.7.gz
+-rw-r--r-- 1 root root   3644 Apr  2  2024 path_resolution.7.gz
+-rw-r--r-- 1 root root   1590 Apr  2  2024 persistent-keyring.7.gz
+-rw-r--r-- 1 root root   4479 Apr  2  2024 pid_namespaces.7.gz
+-rw-r--r-- 1 root root   4508 Apr  2  2024 pipe.7.gz
+-rw-r--r-- 1 root root   3137 Apr  2  2024 pkeys.7.gz
+-rw-r--r-- 1 root root   4888 Apr  2  2024 posixoptions.7.gz
+lrwxrwxrwx 1 root root     13 Apr  2  2024 precedence.7.gz -> operator.7.gz
+-rw-r--r-- 1 root root    793 Apr  2  2024 process-keyring.7.gz
+-rw-r--r-- 1 root root   6952 Apr  2  2024 pthreads.7.gz
+-rw-r--r-- 1 root root   2091 Apr  2  2024 pty.7.gz
+-rw-r--r-- 1 root root   1370 Apr  2  2024 queue.7.gz
+-rw-r--r-- 1 root root   2253 Apr  2  2024 random.7.gz
+-rw-r--r-- 1 root root   3240 Apr  2  2024 raw.7.gz
+lrwxrwxrwx 1 root root     10 Apr  2  2024 re_format.7.gz -> regex.7.gz
+-rw-r--r-- 1 root root   4508 Apr  2  2024 regex.7.gz
+-rw-r--r-- 1 root root   5165 Apr  2  2024 rtld-audit.7.gz
+-rw-r--r-- 1 root root   4811 Apr  2  2024 rtnetlink.7.gz
+-rw-r--r-- 1 root root  11282 Apr  2  2024 sched.7.gz
+-rw-r--r-- 1 root root   1924 Apr  2  2024 sem_overview.7.gz
+-rw-r--r-- 1 root root   1311 Apr  2  2024 session-keyring.7.gz
+-rw-r--r-- 1 root root   1280 Apr  2  2024 shm_overview.7.gz
+-rw-r--r-- 1 root root     44 Apr  2  2024 sigevent.7.gz
+-rw-r--r-- 1 root root   2848 Apr  2  2024 signal-safety.7.gz
+-rw-r--r-- 1 root root  10074 Apr  2  2024 signal.7.gz
+-rw-r--r-- 1 root root   5188 Apr  2  2024 sock_diag.7.gz
+-rw-r--r-- 1 root root  12556 Apr  2  2024 socket.7.gz
+-rw-r--r-- 1 root root   5732 Apr  2  2024 spufs.7.gz
+-rw-r--r-- 1 root root   3401 Apr  2  2024 standards.7.gz
+-rw-r--r-- 1 root root   5594 Apr  2  2024 string_copying.7.gz
+-rw-r--r-- 1 root root   3741 Apr  2  2024 suffixes.7.gz
+lrwxrwxrwx 1 root root     12 Apr  2  2024 svipc.7.gz -> sysvipc.7.gz
+-rw-r--r-- 1 root root   5306 Apr  2  2024 symlink.7.gz
+-rw-r--r-- 1 root root   2448 Apr  2  2024 system_data_types.7.gz
+-rw-r--r-- 1 root root   1004 Apr  2  2024 sysvipc.7.gz
+-rw-r--r-- 1 root root  17641 Apr  2  2024 tcp.7.gz
+-rw-r--r-- 1 root root    665 Apr  2  2024 termio.7.gz
+-rw-r--r-- 1 root root    752 Apr  2  2024 thread-keyring.7.gz
+-rw-r--r-- 1 root root   2769 Apr  2  2024 time.7.gz
+-rw-r--r-- 1 root root   3228 Apr  2  2024 time_namespaces.7.gz
+lrwxrwxrwx 1 root root     16 Apr  2  2024 tis-620.7.gz -> iso_8859-11.7.gz
+-rw-r--r-- 1 root root   3872 Apr  2  2024 udp.7.gz
+-rw-r--r-- 1 root root   1915 Apr  2  2024 udplite.7.gz
+-rw-r--r-- 1 root root   4043 Apr  2  2024 unicode.7.gz
+-rw-r--r-- 1 root root   1774 Apr  2  2024 units.7.gz
+-rw-r--r-- 1 root root  10775 Apr  2  2024 unix.7.gz
+-rw-r--r-- 1 root root  10139 Apr  2  2024 uri.7.gz
+lrwxrwxrwx 1 root root      8 Apr  2  2024 url.7.gz -> uri.7.gz
+lrwxrwxrwx 1 root root      8 Apr  2  2024 urn.7.gz -> uri.7.gz
+-rw-r--r-- 1 root root   1102 Apr  2  2024 user-keyring.7.gz
+-rw-r--r-- 1 root root   1326 Apr  2  2024 user-session-keyring.7.gz
+-rw-r--r-- 1 root root  13699 Apr  2  2024 user_namespaces.7.gz
+-rw-r--r-- 1 root root   2880 Apr  2  2024 utf-8.7.gz
+lrwxrwxrwx 1 root root     10 Apr  2  2024 utf8.7.gz -> utf-8.7.gz
+-rw-r--r-- 1 root root    591 Apr  2  2024 uts_namespaces.7.gz
+-rw-r--r-- 1 root root   5366 Apr  2  2024 vdso.7.gz
+-rw-r--r-- 1 root root   2458 Apr  2  2024 vsock.7.gz
+-rw-r--r-- 1 root root   1869 Apr  2  2024 x25.7.gz
+-rw-r--r-- 1 root root   2645 Apr  2  2024 xattr.7.gz
+-rw-r--r-- 1 root root    508 Mar 31  2024 bash-builtins.7.gz
+lrwxrwxrwx 1 root root     31 Mar 31  2024 builtins.7.gz -> /etc/alternatives/builtins.7.gz
+-rw-r--r-- 1 root root   9112 Nov 17  2020 gfdl.7gcc.gz
+-rw-r--r-- 1 root root   8877 Nov 17  2020 gpl.7gcc.gz
+-rw-r--r-- 1 root root   2878 Nov 24  2011 fsf-funding.7gcc.gz

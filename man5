@@ -1,0 +1,359 @@
+total 1996
+drwxr-xr-x 1 root root 12288 Aug 14 17:04 .
+-rw-r--r-- 1 root root  7898 Jul 29 16:55 config.5ssl.gz
+-rw-r--r-- 1 root root  2614 Jul 29 16:55 fips_config.5ssl.gz
+-rw-r--r-- 1 root root  7806 Jul 29 16:55 x509v3_config.5ssl.gz
+-rw-r--r-- 1 root root  1617 Jul 28 15:04 binfmt.d.5.gz
+-rw-r--r-- 1 root root  2817 Jul 28 15:04 dnssec-trust-anchors.d.5.gz
+-rw-r--r-- 1 root root  2589 Jul 28 15:04 environment.d.5.gz
+lrwxrwxrwx 1 root root    15 Jul 28 15:04 extension-release.5.gz -> os-release.5.gz
+-rw-r--r-- 1 root root  1618 Jul 28 15:04 hostname.5.gz
+lrwxrwxrwx 1 root root    15 Jul 28 15:04 initrd-release.5.gz -> os-release.5.gz
+-rw-r--r-- 1 root root  2323 Jul 28 15:04 integritytab.5.gz
+-rw-r--r-- 1 root root  2027 Jul 28 15:04 iocost.conf.5.gz
+-rw-r--r-- 1 root root  7783 Jul 28 15:04 journald.conf.5.gz
+lrwxrwxrwx 1 root root    18 Jul 28 15:04 journald.conf.d.5.gz -> journald.conf.5.gz
+lrwxrwxrwx 1 root root    18 Jul 28 15:04 journald@.conf.5.gz -> journald.conf.5.gz
+-rw-r--r-- 1 root root  1363 Jul 28 15:04 locale.conf.5.gz
+-rw-r--r-- 1 root root   931 Jul 28 15:04 localtime.5.gz
+-rw-r--r-- 1 root root  5272 Jul 28 15:04 logind.conf.5.gz
+lrwxrwxrwx 1 root root    16 Jul 28 15:04 logind.conf.d.5.gz -> logind.conf.5.gz
+-rw-r--r-- 1 root root  3330 Jul 28 15:04 machine-id.5.gz
+-rw-r--r-- 1 root root  1987 Jul 28 15:04 machine-info.5.gz
+-rw-r--r-- 1 root root  1571 Jul 28 15:04 modules-load.d.5.gz
+-rw-r--r-- 1 root root  3391 Jul 28 15:04 networkd.conf.5.gz
+lrwxrwxrwx 1 root root    18 Jul 28 15:04 networkd.conf.d.5.gz -> networkd.conf.5.gz
+-rw-r--r-- 1 root root  3535 Jul 28 15:04 org.freedesktop.LogControl1.5.gz
+-rw-r--r-- 1 root root  5176 Jul 28 15:04 org.freedesktop.hostname1.5.gz
+-rw-r--r-- 1 root root  3817 Jul 28 15:04 org.freedesktop.import1.5.gz
+-rw-r--r-- 1 root root  2088 Jul 28 15:04 org.freedesktop.locale1.5.gz
+-rw-r--r-- 1 root root 11524 Jul 28 15:04 org.freedesktop.login1.5.gz
+-rw-r--r-- 1 root root  5631 Jul 28 15:04 org.freedesktop.machine1.5.gz
+-rw-r--r-- 1 root root  1687 Jul 28 15:04 org.freedesktop.network1.5.gz
+-rw-r--r-- 1 root root  3942 Jul 28 15:04 org.freedesktop.portable1.5.gz
+-rw-r--r-- 1 root root 36638 Jul 28 15:04 org.freedesktop.systemd1.5.gz
+-rw-r--r-- 1 root root  2473 Jul 28 15:04 org.freedesktop.timedate1.5.gz
+-rw-r--r-- 1 root root  8202 Jul 28 15:04 os-release.5.gz
+-rw-r--r-- 1 root root  1959 Jul 28 15:04 pstore.conf.5.gz
+lrwxrwxrwx 1 root root    16 Jul 28 15:04 pstore.conf.d.5.gz -> pstore.conf.5.gz
+-rw-r--r-- 1 root root 10199 Jul 28 15:04 repart.d.5.gz
+lrwxrwxrwx 1 root root    23 Jul 28 15:04 sleep.conf.d.5.gz -> systemd-sleep.conf.5.gz
+-rw-r--r-- 1 root root  3081 Jul 28 15:04 sysctl.d.5.gz
+lrwxrwxrwx 1 root root    24 Jul 28 15:04 system.conf.d.5.gz -> systemd-system.conf.5.gz
+-rw-r--r-- 1 root root  3165 Jul 28 15:04 systemd-sleep.conf.5.gz
+-rw-r--r-- 1 root root  8827 Jul 28 15:04 systemd-system.conf.5.gz
+lrwxrwxrwx 1 root root    18 Jul 28 15:04 systemd-user-runtime-dir.5.gz -> user@.service.5.gz
+lrwxrwxrwx 1 root root    24 Jul 28 15:04 systemd-user.conf.5.gz -> systemd-system.conf.5.gz
+-rw-r--r-- 1 root root  2316 Jul 28 15:04 systemd.automount.5.gz
+-rw-r--r-- 1 root root  2285 Jul 28 15:04 systemd.device.5.gz
+-rw-r--r-- 1 root root  2965 Jul 28 15:04 systemd.dnssd.5.gz
+-rw-r--r-- 1 root root 53218 Jul 28 15:04 systemd.exec.5.gz
+-rw-r--r-- 1 root root  2318 Jul 28 15:04 systemd.kill.5.gz
+-rw-r--r-- 1 root root  6222 Jul 28 15:04 systemd.mount.5.gz
+lrwxrwxrwx 1 root root    27 Jul 28 15:04 systemd.negative.5.gz -> dnssec-trust-anchors.d.5.gz
+-rw-r--r-- 1 root root 18775 Jul 28 15:04 systemd.netdev.5.gz
+-rw-r--r-- 1 root root 43313 Jul 28 15:04 systemd.network.5.gz
+-rw-r--r-- 1 root root  2956 Jul 28 15:04 systemd.path.5.gz
+-rw-r--r-- 1 root root  2420 Jul 28 15:04 systemd.pcrlock.5.gz
+lrwxrwxrwx 1 root root    20 Jul 28 15:04 systemd.pcrlock.d.5.gz -> systemd.pcrlock.5.gz
+lrwxrwxrwx 1 root root    27 Jul 28 15:04 systemd.positive.5.gz -> dnssec-trust-anchors.d.5.gz
+-rw-r--r-- 1 root root  3246 Jul 28 15:04 systemd.preset.5.gz
+-rw-r--r-- 1 root root 17252 Jul 28 15:04 systemd.resource-control.5.gz
+-rw-r--r-- 1 root root  2698 Jul 28 15:04 systemd.scope.5.gz
+-rw-r--r-- 1 root root 20964 Jul 28 15:04 systemd.service.5.gz
+-rw-r--r-- 1 root root  1685 Jul 28 15:04 systemd.slice.5.gz
+-rw-r--r-- 1 root root 10497 Jul 28 15:04 systemd.socket.5.gz
+-rw-r--r-- 1 root root  2913 Jul 28 15:04 systemd.swap.5.gz
+-rw-r--r-- 1 root root  1991 Jul 28 15:04 systemd.target.5.gz
+-rw-r--r-- 1 root root  5648 Jul 28 15:04 systemd.timer.5.gz
+-rw-r--r-- 1 root root 27890 Jul 28 15:04 systemd.unit.5.gz
+-rw-r--r-- 1 root root 10270 Jul 28 15:04 sysupdate.d.5.gz
+-rw-r--r-- 1 root root  4082 Jul 28 15:04 sysusers.d.5.gz
+-rw-r--r-- 1 root root 11288 Jul 28 15:04 tmpfiles.d.5.gz
+lrwxrwxrwx 1 root root    18 Jul 28 15:04 user-runtime-dir@.service.5.gz -> user@.service.5.gz
+lrwxrwxrwx 1 root root    24 Jul 28 15:04 user.conf.d.5.gz -> systemd-system.conf.5.gz
+-rw-r--r-- 1 root root  2463 Jul 28 15:04 user@.service.5.gz
+-rw-r--r-- 1 root root  3406 Jul 28 15:04 veritytab.5.gz
+-rw-r--r-- 1 root root   794 Jul 23 17:18 locale.gen.5.gz
+-rw-r--r-- 1 root root  2741 Jul 16 13:44 access.conf.5.gz
+-rw-r--r-- 1 root root    39 Jul 16 13:44 environment.5.gz
+-rw-r--r-- 1 root root  2065 Jul 16 13:44 faillock.conf.5.gz
+-rw-r--r-- 1 root root  2006 Jul 16 13:44 group.conf.5.gz
+-rw-r--r-- 1 root root  3047 Jul 16 13:44 limits.conf.5.gz
+-rw-r--r-- 1 root root  2885 Jul 16 13:44 namespace.conf.5.gz
+-rw-r--r-- 1 root root  5085 Jul 16 13:44 pam.conf.5.gz
+lrwxrwxrwx 1 root root    13 Jul 16 13:44 pam.d.5.gz -> pam.conf.5.gz
+-rw-r--r-- 1 root root  1828 Jul 16 13:44 pam_env.conf.5.gz
+-rw-r--r-- 1 root root  1209 Jul 16 13:44 pwhistory.conf.5.gz
+-rw-r--r-- 1 root root  1191 Jul 16 13:44 sepermit.conf.5.gz
+-rw-r--r-- 1 root root  2020 Jul 16 13:44 time.conf.5.gz
+-rw-r--r-- 1 root root  1544 Jul 16 13:44 update-motd.5.gz
+lrwxrwxrwx 1 root root    17 Jul  9 18:16 authorized_keys.5.gz -> ../man8/sshd.8.gz
+-rw-r--r-- 1 root root  1803 Jul  9 18:16 moduli.5.gz
+-rw-r--r-- 1 root root 20324 Jul  9 18:16 ssh_config.5.gz
+-rw-r--r-- 1 root root 17106 Jul  9 18:16 sshd_config.5.gz
+-rw-r--r-- 1 root root  4014 Jul  2 14:59 mailcap.5.gz
+-rw-r--r-- 1 root root  1226 Jul  2 14:59 mailcap.order.5.gz
+-rw-r--r-- 1 root root  5218 Jun 30 21:25 scr_dump.5.gz
+-rw-r--r-- 1 root root  6226 Jun 30 21:25 term.5.gz
+-rw-r--r-- 1 root root 39536 Jun 30 21:25 terminfo.5.gz
+-rw-r--r-- 1 root root  6429 Jun 30 21:25 user_caps.5.gz
+-rw-r--r-- 1 root root 20238 Jun  8 14:10 rsyncd.conf.5.gz
+-rw-r--r-- 1 root root 12856 Jun  3 22:50 nanorc.5.gz
+-rw-r--r-- 1 root root  4098 May  6 17:38 deb-buildinfo.5.gz
+-rw-r--r-- 1 root root  3671 May  6 17:38 deb-changelog.5.gz
+-rw-r--r-- 1 root root  3449 May  6 17:38 deb-changes.5.gz
+-rw-r--r-- 1 root root  1380 May  6 17:38 deb-conffiles.5.gz
+-rw-r--r-- 1 root root  6557 May  6 17:38 deb-control.5.gz
+-rw-r--r-- 1 root root  1275 May  6 17:38 deb-extra-override.5.gz
+-rw-r--r-- 1 root root  1451 May  6 17:38 deb-md5sums.5.gz
+-rw-r--r-- 1 root root  1492 May  6 17:38 deb-old.5.gz
+-rw-r--r-- 1 root root  1854 May  6 17:38 deb-origin.5.gz
+-rw-r--r-- 1 root root  1391 May  6 17:38 deb-override.5.gz
+-rw-r--r-- 1 root root  1371 May  6 17:38 deb-postinst.5.gz
+-rw-r--r-- 1 root root  1333 May  6 17:38 deb-postrm.5.gz
+-rw-r--r-- 1 root root  1217 May  6 17:38 deb-preinst.5.gz
+-rw-r--r-- 1 root root  1308 May  6 17:38 deb-prerm.5.gz
+-rw-r--r-- 1 root root  1678 May  6 17:38 deb-shlibs.5.gz
+-rw-r--r-- 1 root root  1682 May  6 17:38 deb-split.5.gz
+-rw-r--r-- 1 root root  7158 May  6 17:38 deb-src-control.5.gz
+-rw-r--r-- 1 root root  1306 May  6 17:38 deb-src-files.5.gz
+-rw-r--r-- 1 root root  1481 May  6 17:38 deb-src-rules.5.gz
+-rw-r--r-- 1 root root  6764 May  6 17:38 deb-src-symbols.5.gz
+-rw-r--r-- 1 root root  3436 May  6 17:38 deb-substvars.5.gz
+-rw-r--r-- 1 root root  2286 May  6 17:38 deb-symbols.5.gz
+-rw-r--r-- 1 root root  2180 May  6 17:38 deb-triggers.5.gz
+-rw-r--r-- 1 root root  2616 May  6 17:38 deb.5.gz
+-rw-r--r-- 1 root root  2665 May  6 17:38 deb822.5.gz
+-rw-r--r-- 1 root root  1098 May  6 17:38 dpkg.cfg.5.gz
+-rw-r--r-- 1 root root  4234 May  6 17:38 dsc.5.gz
+-rw-r--r-- 1 root root   964 May  5 19:06 png.5.gz
+drwxr-xr-x 1 root root  4096 Mar 11 12:00 ..
+-rw-r--r-- 1 root root  1462 Mar  6 16:00 adjtime_config.5.gz
+-rw-r--r-- 1 root root  3059 Mar  6 16:00 fstab.5.gz
+-rw-r--r-- 1 root root  2338 Mar  6 16:00 terminal-colors.d.5.gz
+-rw-r--r-- 1 root root  7674 Mar  2 12:56 sudo.conf.5.gz
+-rw-r--r-- 1 root root  6524 Mar  2 12:56 sudo_logsrv.proto.5.gz
+-rw-r--r-- 1 root root  8890 Mar  2 12:56 sudo_logsrvd.conf.5.gz
+-rw-r--r-- 1 root root 23415 Mar  2 12:56 sudo_plugin.5.gz
+-rw-r--r-- 1 root root 52168 Mar  2 12:56 sudoers.5.gz
+-rw-r--r-- 1 root root  3821 Mar  2 12:56 sudoers_timestamp.5.gz
+-rw-r--r-- 1 root root  9831 Feb 24 08:16 libnftables-json.5.gz
+-rw-r--r-- 1 root root  1955 Feb  5  2026 gdbinit.5.gz
+-rw-r--r-- 1 root root 16233 Jul  2  2025 gitattributes.5.gz
+-rw-r--r-- 1 root root  1883 Jul  2  2025 gitformat-bundle.5.gz
+-rw-r--r-- 1 root root  2572 Jul  2  2025 gitformat-chunk.5.gz
+-rw-r--r-- 1 root root  3681 Jul  2  2025 gitformat-commit-graph.5.gz
+-rw-r--r-- 1 root root  6147 Jul  2  2025 gitformat-index.5.gz
+-rw-r--r-- 1 root root  9135 Jul  2  2025 gitformat-pack.5.gz
+-rw-r--r-- 1 root root  3357 Jul  2  2025 gitformat-signature.5.gz
+-rw-r--r-- 1 root root  9269 Jul  2  2025 githooks.5.gz
+-rw-r--r-- 1 root root  3758 Jul  2  2025 gitignore.5.gz
+-rw-r--r-- 1 root root  1745 Jul  2  2025 gitmailmap.5.gz
+-rw-r--r-- 1 root root  2386 Jul  2  2025 gitmodules.5.gz
+-rw-r--r-- 1 root root  6237 Jul  2  2025 gitprotocol-capabilities.5.gz
+-rw-r--r-- 1 root root  2093 Jul  2  2025 gitprotocol-common.5.gz
+-rw-r--r-- 1 root root  6752 Jul  2  2025 gitprotocol-http.5.gz
+-rw-r--r-- 1 root root  9985 Jul  2  2025 gitprotocol-pack.5.gz
+-rw-r--r-- 1 root root 11740 Jul  2  2025 gitprotocol-v2.5.gz
+-rw-r--r-- 1 root root  6298 Jul  2  2025 gitrepository-layout.5.gz
+-rw-r--r-- 1 root root 13959 Jul  2  2025 gitweb.conf.5.gz
+-rw-r--r-- 1 root root   547 May 28  2025 ethers.5.gz
+-rw-r--r-- 1 root root 15173 Oct 22  2024 apt.conf.5.gz
+-rw-r--r-- 1 root root  2202 Oct 22  2024 apt_auth.conf.5.gz
+-rw-r--r-- 1 root root  7145 Oct 22  2024 apt_preferences.5.gz
+-rw-r--r-- 1 root root  9254 Oct 22  2024 sources.list.5.gz
+-rw-r--r-- 1 root root   553 Oct  2  2024 libaudit.conf.5.gz
+-rw-r--r-- 1 root root  1171 Sep 26  2024 sysctl.conf.5.gz
+-rw-r--r-- 1 root root  2553 Aug  9  2024 libsasl.5.gz
+-rw-r--r-- 1 root root  1301 Jun  3  2024 odbc.ini.5.gz
+-rw-r--r-- 1 root root  1527 Jun  3  2024 odbcinst.ini.5.gz
+-rw-r--r-- 1 root root   880 May 30  2024 faillog.5.gz
+-rw-r--r-- 1 root root  1266 May 30  2024 gshadow.5.gz
+-rw-r--r-- 1 root root  6223 May 30  2024 login.defs.5.gz
+-rw-r--r-- 1 root root  1638 May 30  2024 passwd.5.gz
+-rw-r--r-- 1 root root  1896 May 30  2024 shadow.5.gz
+-rw-r--r-- 1 root root  1370 May 30  2024 subgid.5.gz
+-rw-r--r-- 1 root root  1365 May 30  2024 subuid.5.gz
+-rw-r--r-- 1 root root  5794 Apr 28  2024 e2fsck.conf.5.gz
+lrwxrwxrwx 1 root root     9 Apr 28  2024 ext2.5.gz -> ext4.5.gz
+lrwxrwxrwx 1 root root     9 Apr 28  2024 ext3.5.gz -> ext4.5.gz
+-rw-r--r-- 1 root root 10651 Apr 28  2024 ext4.5.gz
+-rw-r--r-- 1 root root  5605 Apr 28  2024 mke2fs.conf.5.gz
+-rw-r--r-- 1 root root  5048 Apr  8  2024 Xsession.5.gz
+-rw-r--r-- 1 root root  1702 Apr  8  2024 Xsession.options.5.gz
+-rw-r--r-- 1 root root  1702 Apr  8  2024 Xsession.options.d.5.gz
+-rw-r--r-- 1 root root  1876 Apr  8  2024 init-d-script.5.gz
+-rw-r--r-- 1 root root  2164 Apr  8  2024 pc.5.gz
+-rw-r--r-- 1 root root  1420 Apr  8  2024 pkgconf-personality.5.gz
+-rw-r--r-- 1 root root  4498 Apr  8  2024 crypt.5.gz
+-rw-r--r-- 1 root root  2585 Apr  8  2024 Compose.5.gz
+lrwxrwxrwx 1 root root    12 Apr  8  2024 XCompose.5.gz -> Compose.5.gz
+-rw-r--r-- 1 root root  3143 Apr  8  2024 editrc.5edit.gz
+-rw-r--r-- 1 root root  2803 Apr  8  2024 manpath.5.gz
+lrwxrwxrwx 1 root root    17 Apr  5  2024 hosts.allow.5.gz -> hosts_access.5.gz
+lrwxrwxrwx 1 root root    17 Apr  5  2024 hosts.deny.5.gz -> hosts_access.5.gz
+-rw-r--r-- 1 root root  6396 Apr  5  2024 hosts_access.5.gz
+-rw-r--r-- 1 root root  3036 Apr  5  2024 hosts_options.5.gz
+-rw-r--r-- 1 root root  1936 Apr  2  2024 acct.5.gz
+-rw-r--r-- 1 root root  1106 Apr  2  2024 charmap.5.gz
+-rw-r--r-- 1 root root  7435 Apr  2  2024 core.5.gz
+-rw-r--r-- 1 root root  3689 Apr  2  2024 dir_colors.5.gz
+-rw-r--r-- 1 root root 15072 Apr  2  2024 elf.5.gz
+-rw-r--r-- 1 root root  1207 Apr  2  2024 erofs.5.gz
+-rw-r--r-- 1 root root  2576 Apr  2  2024 filesystems.5.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 fs.5.gz -> filesystems.5.gz
+-rw-r--r-- 1 root root  1345 Apr  2  2024 gai.conf.5.gz
+-rw-r--r-- 1 root root   643 Apr  2  2024 group.5.gz
+-rw-r--r-- 1 root root  2013 Apr  2  2024 host.conf.5.gz
+-rw-r--r-- 1 root root  1901 Apr  2  2024 hosts.5.gz
+-rw-r--r-- 1 root root  1658 Apr  2  2024 hosts.equiv.5.gz
+-rw-r--r-- 1 root root   537 Apr  2  2024 intro.5.gz
+-rw-r--r-- 1 root root   507 Apr  2  2024 issue.5.gz
+-rw-r--r-- 1 root root  7276 Apr  2  2024 locale.5.gz
+-rw-r--r-- 1 root root   623 Apr  2  2024 motd.5.gz
+-rw-r--r-- 1 root root   865 Apr  2  2024 networks.5.gz
+-rw-r--r-- 1 root root   519 Apr  2  2024 nologin.5.gz
+-rw-r--r-- 1 root root  1397 Apr  2  2024 nss.5.gz
+-rw-r--r-- 1 root root  3590 Apr  2  2024 nsswitch.conf.5.gz
+-rw-r--r-- 1 root root  2882 Apr  2  2024 proc.5.gz
+-rw-r--r-- 1 root root   367 Apr  2  2024 proc_apm.5.gz
+-rw-r--r-- 1 root root  1061 Apr  2  2024 proc_buddyinfo.5.gz
+-rw-r--r-- 1 root root   517 Apr  2  2024 proc_bus.5.gz
+-rw-r--r-- 1 root root   326 Apr  2  2024 proc_cgroups.5.gz
+-rw-r--r-- 1 root root   433 Apr  2  2024 proc_cmdline.5.gz
+-rw-r--r-- 1 root root   652 Apr  2  2024 proc_config.gz.5.gz
+-rw-r--r-- 1 root root   516 Apr  2  2024 proc_cpuinfo.5.gz
+-rw-r--r-- 1 root root   514 Apr  2  2024 proc_crypto.5.gz
+-rw-r--r-- 1 root root   376 Apr  2  2024 proc_devices.5.gz
+-rw-r--r-- 1 root root   427 Apr  2  2024 proc_diskstats.5.gz
+-rw-r--r-- 1 root root   355 Apr  2  2024 proc_dma.5.gz
+-rw-r--r-- 1 root root   311 Apr  2  2024 proc_driver.5.gz
+-rw-r--r-- 1 root root   372 Apr  2  2024 proc_execdomains.5.gz
+-rw-r--r-- 1 root root   348 Apr  2  2024 proc_fb.5.gz
+-rw-r--r-- 1 root root   667 Apr  2  2024 proc_filesystems.5.gz
+-rw-r--r-- 1 root root   391 Apr  2  2024 proc_fs.5.gz
+-rw-r--r-- 1 root root   623 Apr  2  2024 proc_ide.5.gz
+-rw-r--r-- 1 root root   567 Apr  2  2024 proc_interrupts.5.gz
+-rw-r--r-- 1 root root   309 Apr  2  2024 proc_iomem.5.gz
+-rw-r--r-- 1 root root   349 Apr  2  2024 proc_ioports.5.gz
+-rw-r--r-- 1 root root   482 Apr  2  2024 proc_kallsyms.5.gz
+-rw-r--r-- 1 root root   495 Apr  2  2024 proc_kcore.5.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 proc_key-users.5.gz -> proc_keys.5.gz
+-rw-r--r-- 1 root root   347 Apr  2  2024 proc_keys.5.gz
+-rw-r--r-- 1 root root   483 Apr  2  2024 proc_kmsg.5.gz
+-rw-r--r-- 1 root root   505 Apr  2  2024 proc_kpagecgroup.5.gz
+-rw-r--r-- 1 root root   484 Apr  2  2024 proc_kpagecount.5.gz
+-rw-r--r-- 1 root root  1132 Apr  2  2024 proc_kpageflags.5.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 proc_ksyms.5.gz -> proc_kallsyms.5.gz
+-rw-r--r-- 1 root root   603 Apr  2  2024 proc_loadavg.5.gz
+-rw-r--r-- 1 root root  1452 Apr  2  2024 proc_locks.5.gz
+-rw-r--r-- 1 root root   430 Apr  2  2024 proc_malloc.5.gz
+-rw-r--r-- 1 root root  3355 Apr  2  2024 proc_meminfo.5.gz
+-rw-r--r-- 1 root root   349 Apr  2  2024 proc_modules.5.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 proc_mounts.5.gz -> proc_pid_mounts.5.gz
+-rw-r--r-- 1 root root   437 Apr  2  2024 proc_mtrr.5.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 proc_net.5.gz -> proc_pid_net.5.gz
+-rw-r--r-- 1 root root   364 Apr  2  2024 proc_partitions.5.gz
+-rw-r--r-- 1 root root   553 Apr  2  2024 proc_pci.5.gz
+-rw-r--r-- 1 root root  1122 Apr  2  2024 proc_pid.5.gz
+-rw-r--r-- 1 root root  2095 Apr  2  2024 proc_pid_attr.5.gz
+-rw-r--r-- 1 root root   382 Apr  2  2024 proc_pid_autogroup.5.gz
+-rw-r--r-- 1 root root   548 Apr  2  2024 proc_pid_auxv.5.gz
+-rw-r--r-- 1 root root   335 Apr  2  2024 proc_pid_cgroup.5.gz
+-rw-r--r-- 1 root root  1302 Apr  2  2024 proc_pid_clear_refs.5.gz
+-rw-r--r-- 1 root root   861 Apr  2  2024 proc_pid_cmdline.5.gz
+-rw-r--r-- 1 root root   801 Apr  2  2024 proc_pid_comm.5.gz
+-rw-r--r-- 1 root root   337 Apr  2  2024 proc_pid_coredump_filter.5.gz
+-rw-r--r-- 1 root root   358 Apr  2  2024 proc_pid_cpuset.5.gz
+-rw-r--r-- 1 root root   640 Apr  2  2024 proc_pid_cwd.5.gz
+-rw-r--r-- 1 root root   770 Apr  2  2024 proc_pid_environ.5.gz
+-rw-r--r-- 1 root root   977 Apr  2  2024 proc_pid_exe.5.gz
+-rw-r--r-- 1 root root  1852 Apr  2  2024 proc_pid_fd.5.gz
+-rw-r--r-- 1 root root  2492 Apr  2  2024 proc_pid_fdinfo.5.gz
+lrwxrwxrwx 1 root root    21 Apr  2  2024 proc_pid_gid_map.5.gz -> proc_pid_uid_map.5.gz
+-rw-r--r-- 1 root root  1254 Apr  2  2024 proc_pid_io.5.gz
+-rw-r--r-- 1 root root   605 Apr  2  2024 proc_pid_limits.5.gz
+-rw-r--r-- 1 root root  1175 Apr  2  2024 proc_pid_map_files.5.gz
+-rw-r--r-- 1 root root  1993 Apr  2  2024 proc_pid_maps.5.gz
+-rw-r--r-- 1 root root   444 Apr  2  2024 proc_pid_mem.5.gz
+-rw-r--r-- 1 root root  1751 Apr  2  2024 proc_pid_mountinfo.5.gz
+-rw-r--r-- 1 root root   745 Apr  2  2024 proc_pid_mounts.5.gz
+-rw-r--r-- 1 root root   686 Apr  2  2024 proc_pid_mountstats.5.gz
+-rw-r--r-- 1 root root  3274 Apr  2  2024 proc_pid_net.5.gz
+-rw-r--r-- 1 root root   454 Apr  2  2024 proc_pid_ns.5.gz
+-rw-r--r-- 1 root root   353 Apr  2  2024 proc_pid_numa_maps.5.gz
+lrwxrwxrwx 1 root root    27 Apr  2  2024 proc_pid_oom_adj.5.gz -> proc_pid_oom_score_adj.5.gz
+-rw-r--r-- 1 root root   900 Apr  2  2024 proc_pid_oom_score.5.gz
+-rw-r--r-- 1 root root  1891 Apr  2  2024 proc_pid_oom_score_adj.5.gz
+-rw-r--r-- 1 root root  1150 Apr  2  2024 proc_pid_pagemap.5.gz
+-rw-r--r-- 1 root root   524 Apr  2  2024 proc_pid_personality.5.gz
+-rw-r--r-- 1 root root   387 Apr  2  2024 proc_pid_projid_map.5.gz
+-rw-r--r-- 1 root root  1134 Apr  2  2024 proc_pid_root.5.gz
+-rw-r--r-- 1 root root   606 Apr  2  2024 proc_pid_seccomp.5.gz
+-rw-r--r-- 1 root root   352 Apr  2  2024 proc_pid_setgroups.5.gz
+-rw-r--r-- 1 root root  1874 Apr  2  2024 proc_pid_smaps.5.gz
+-rw-r--r-- 1 root root   536 Apr  2  2024 proc_pid_stack.5.gz
+-rw-r--r-- 1 root root  3755 Apr  2  2024 proc_pid_stat.5.gz
+-rw-r--r-- 1 root root   821 Apr  2  2024 proc_pid_statm.5.gz
+-rw-r--r-- 1 root root  3293 Apr  2  2024 proc_pid_status.5.gz
+-rw-r--r-- 1 root root   721 Apr  2  2024 proc_pid_syscall.5.gz
+-rw-r--r-- 1 root root  1257 Apr  2  2024 proc_pid_task.5.gz
+-rw-r--r-- 1 root root  1176 Apr  2  2024 proc_pid_timers.5.gz
+-rw-r--r-- 1 root root   846 Apr  2  2024 proc_pid_timerslack_ns.5.gz
+-rw-r--r-- 1 root root   363 Apr  2  2024 proc_pid_uid_map.5.gz
+-rw-r--r-- 1 root root   456 Apr  2  2024 proc_pid_wchan.5.gz
+-rw-r--r-- 1 root root   521 Apr  2  2024 proc_profile.5.gz
+-rw-r--r-- 1 root root  1236 Apr  2  2024 proc_scsi.5.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 proc_self.5.gz -> proc_pid.5.gz
+-rw-r--r-- 1 root root   331 Apr  2  2024 proc_slabinfo.5.gz
+-rw-r--r-- 1 root root  2043 Apr  2  2024 proc_stat.5.gz
+-rw-r--r-- 1 root root   320 Apr  2  2024 proc_swaps.5.gz
+-rw-r--r-- 1 root root   684 Apr  2  2024 proc_sys.5.gz
+-rw-r--r-- 1 root root   472 Apr  2  2024 proc_sys_abi.5.gz
+-rw-r--r-- 1 root root   347 Apr  2  2024 proc_sys_debug.5.gz
+-rw-r--r-- 1 root root   405 Apr  2  2024 proc_sys_dev.5.gz
+-rw-r--r-- 1 root root  5278 Apr  2  2024 proc_sys_fs.5.gz
+-rw-r--r-- 1 root root  7940 Apr  2  2024 proc_sys_kernel.5.gz
+-rw-r--r-- 1 root root   511 Apr  2  2024 proc_sys_net.5.gz
+-rw-r--r-- 1 root root   345 Apr  2  2024 proc_sys_proc.5.gz
+-rw-r--r-- 1 root root   403 Apr  2  2024 proc_sys_sunrpc.5.gz
+-rw-r--r-- 1 root root   380 Apr  2  2024 proc_sys_user.5.gz
+-rw-r--r-- 1 root root  4791 Apr  2  2024 proc_sys_vm.5.gz
+-rw-r--r-- 1 root root   538 Apr  2  2024 proc_sysrq-trigger.5.gz
+-rw-r--r-- 1 root root   575 Apr  2  2024 proc_sysvipc.5.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 proc_thread-self.5.gz -> proc_pid_task.5.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 proc_tid.5.gz -> proc_pid_task.5.gz
+-rw-r--r-- 1 root root   852 Apr  2  2024 proc_tid_children.5.gz
+-rw-r--r-- 1 root root   455 Apr  2  2024 proc_timer_list.5.gz
+-rw-r--r-- 1 root root  1679 Apr  2  2024 proc_timer_stats.5.gz
+-rw-r--r-- 1 root root   349 Apr  2  2024 proc_tty.5.gz
+-rw-r--r-- 1 root root   391 Apr  2  2024 proc_uptime.5.gz
+-rw-r--r-- 1 root root   448 Apr  2  2024 proc_version.5.gz
+-rw-r--r-- 1 root root  3501 Apr  2  2024 proc_vmstat.5.gz
+-rw-r--r-- 1 root root   404 Apr  2  2024 proc_zoneinfo.5.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 procfs.5.gz -> proc.5.gz
+-rw-r--r-- 1 root root   959 Apr  2  2024 protocols.5.gz
+-rw-r--r-- 1 root root   784 Apr  2  2024 repertoiremap.5.gz
+-rw-r--r-- 1 root root  5351 Apr  2  2024 resolv.conf.5.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 resolver.5.gz -> resolv.conf.5.gz
+-rw-r--r-- 1 root root   966 Apr  2  2024 rpc.5.gz
+-rw-r--r-- 1 root root   562 Apr  2  2024 securetty.5.gz
+-rw-r--r-- 1 root root  2454 Apr  2  2024 services.5.gz
+-rw-r--r-- 1 root root   608 Apr  2  2024 shells.5.gz
+-rw-r--r-- 1 root root  2560 Apr  2  2024 slabinfo.5.gz
+-rw-r--r-- 1 root root  2519 Apr  2  2024 sysfs.5.gz
+-rw-r--r-- 1 root root  5272 Apr  2  2024 termcap.5.gz
+-rw-r--r-- 1 root root  2617 Apr  2  2024 tmpfs.5.gz
+-rw-r--r-- 1 root root   794 Apr  2  2024 ttytype.5.gz
+-rw-r--r-- 1 root root  6966 Apr  2  2024 tzfile.5.gz
+-rw-r--r-- 1 root root  4309 Apr  2  2024 utmp.5.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 utmpx.5.gz -> utmp.5.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 wtmp.5.gz -> utmp.5.gz
+-rw-r--r-- 1 root root  7980 Mar 31  2024 magic.5.gz
+-rw-r--r-- 1 root root  1195 Mar 31  2024 netconfig.5.gz
+-rw-r--r-- 1 root root  2100 Mar 31  2024 semanage.conf.5.gz
+-rw-r--r-- 1 root root 11508 Mar 31  2024 fonts-conf.5.gz
+-rw-r--r-- 1 root root  3781 Jul  5  2023 adduser.conf.5.gz
+-rw-r--r-- 1 root root  1513 Jul  5  2023 deluser.conf.5.gz
+-rw-r--r-- 1 root root  1967 Jan 27  2023 ucf.conf.5.gz

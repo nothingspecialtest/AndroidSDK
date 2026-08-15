@@ -1,0 +1,4 @@
+codespace starts in the git folder of the repository
+/workspaces/repository
+/ is the root folder the user doesn't have permission to edit
+~ is the home folder that is located in /home/codespaces

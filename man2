@@ -1,0 +1,506 @@
+total 1556
+drwxr-xr-x 2 root root 20480 Mar 11 12:00 .
+drwxr-xr-x 1 root root  4096 Mar 11 12:00 ..
+lrwxrwxrwx 1 root root    10 Apr  2  2024 _Exit.2.gz -> _exit.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 __clone2.2.gz -> clone.2.gz
+-rw-r--r-- 1 root root  1593 Apr  2  2024 _exit.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 _llseek.2.gz -> llseek.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 _newselect.2.gz -> select.2.gz
+-rw-r--r-- 1 root root  2031 Apr  2  2024 _syscall.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 _sysctl.2.gz -> sysctl.2.gz
+-rw-r--r-- 1 root root  3674 Apr  2  2024 accept.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 accept4.2.gz -> accept.2.gz
+-rw-r--r-- 1 root root  4718 Apr  2  2024 access.2.gz
+-rw-r--r-- 1 root root  1719 Apr  2  2024 acct.2.gz
+-rw-r--r-- 1 root root  3272 Apr  2  2024 add_key.2.gz
+-rw-r--r-- 1 root root  5936 Apr  2  2024 adjtimex.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 afs_syscall.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root   983 Apr  2  2024 alarm.2.gz
+-rw-r--r-- 1 root root  1652 Apr  2  2024 alloc_hugepages.2.gz
+-rw-r--r-- 1 root root  1747 Apr  2  2024 arch_prctl.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 arm_fadvise.2.gz -> posix_fadvise.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 arm_fadvise64_64.2.gz -> posix_fadvise.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 arm_sync_file_range.2.gz -> sync_file_range.2.gz
+-rw-r--r-- 1 root root  1219 Apr  2  2024 bdflush.2.gz
+-rw-r--r-- 1 root root  2882 Apr  2  2024 bind.2.gz
+-rw-r--r-- 1 root root 11784 Apr  2  2024 bpf.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 break.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  1884 Apr  2  2024 brk.2.gz
+-rw-r--r-- 1 root root  1597 Apr  2  2024 cacheflush.2.gz
+-rw-r--r-- 1 root root  2968 Apr  2  2024 capget.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 capset.2.gz -> capget.2.gz
+-rw-r--r-- 1 root root  1444 Apr  2  2024 chdir.2.gz
+-rw-r--r-- 1 root root  3093 Apr  2  2024 chmod.2.gz
+-rw-r--r-- 1 root root  4532 Apr  2  2024 chown.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 chown32.2.gz -> chown.2.gz
+-rw-r--r-- 1 root root  2313 Apr  2  2024 chroot.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 clock_adjtime.2.gz -> adjtimex.2.gz
+-rw-r--r-- 1 root root  5772 Apr  2  2024 clock_getres.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 clock_gettime.2.gz -> clock_getres.2.gz
+-rw-r--r-- 1 root root  2604 Apr  2  2024 clock_nanosleep.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 clock_settime.2.gz -> clock_getres.2.gz
+-rw-r--r-- 1 root root 16029 Apr  2  2024 clone.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 clone2.2.gz -> clone.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 clone3.2.gz -> clone.2.gz
+-rw-r--r-- 1 root root  3776 Apr  2  2024 close.2.gz
+-rw-r--r-- 1 root root  2786 Apr  2  2024 close_range.2.gz
+-rw-r--r-- 1 root root  2815 Apr  2  2024 connect.2.gz
+-rw-r--r-- 1 root root  3067 Apr  2  2024 copy_file_range.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 creat.2.gz -> open.2.gz
+-rw-r--r-- 1 root root  1044 Apr  2  2024 create_module.2.gz
+-rw-r--r-- 1 root root  2274 Apr  2  2024 delete_module.2.gz
+-rw-r--r-- 1 root root  2675 Apr  2  2024 dup.2.gz
+lrwxrwxrwx 1 root root     8 Apr  2  2024 dup2.2.gz -> dup.2.gz
+lrwxrwxrwx 1 root root     8 Apr  2  2024 dup3.2.gz -> dup.2.gz
+-rw-r--r-- 1 root root  1674 Apr  2  2024 epoll_create.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 epoll_create1.2.gz -> epoll_create.2.gz
+-rw-r--r-- 1 root root  3611 Apr  2  2024 epoll_ctl.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 epoll_pwait.2.gz -> epoll_wait.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 epoll_pwait2.2.gz -> epoll_wait.2.gz
+-rw-r--r-- 1 root root  2598 Apr  2  2024 epoll_wait.2.gz
+-rw-r--r-- 1 root root  4221 Apr  2  2024 eventfd.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 eventfd2.2.gz -> eventfd.2.gz
+-rw-r--r-- 1 root root  9120 Apr  2  2024 execve.2.gz
+-rw-r--r-- 1 root root  2112 Apr  2  2024 execveat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 exit.2.gz -> _exit.2.gz
+-rw-r--r-- 1 root root   562 Apr  2  2024 exit_group.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 faccessat.2.gz -> access.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 faccessat2.2.gz -> access.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 fadvise64.2.gz -> posix_fadvise.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 fadvise64_64.2.gz -> posix_fadvise.2.gz
+-rw-r--r-- 1 root root  4277 Apr  2  2024 fallocate.2.gz
+-rw-r--r-- 1 root root  5212 Apr  2  2024 fanotify_init.2.gz
+-rw-r--r-- 1 root root  5999 Apr  2  2024 fanotify_mark.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 fattach.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fchdir.2.gz -> chdir.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fchmod.2.gz -> chmod.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fchmodat.2.gz -> chmod.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fchown.2.gz -> chown.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 fchown32.2.gz -> fchown.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fchownat.2.gz -> chown.2.gz
+-rw-r--r-- 1 root root 18551 Apr  2  2024 fcntl.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fcntl64.2.gz -> fcntl.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fdatasync.2.gz -> fsync.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 fdetach.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 fgetxattr.2.gz -> getxattr.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 finit_module.2.gz -> init_module.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 flistxattr.2.gz -> listxattr.2.gz
+-rw-r--r-- 1 root root  2992 Apr  2  2024 flock.2.gz
+-rw-r--r-- 1 root root  3751 Apr  2  2024 fork.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 free_hugepages.2.gz -> alloc_hugepages.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 fremovexattr.2.gz -> removexattr.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 fsetxattr.2.gz -> setxattr.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 fstat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 fstat64.2.gz -> fstat.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 fstatat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 fstatat64.2.gz -> fstatat.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 fstatfs.2.gz -> statfs.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 fstatfs64.2.gz -> fstatfs.2.gz
+-rw-r--r-- 1 root root  2636 Apr  2  2024 fsync.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 ftruncate.2.gz -> truncate.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 ftruncate64.2.gz -> ftruncate.2.gz
+-rw-r--r-- 1 root root 18011 Apr  2  2024 futex.2.gz
+-rw-r--r-- 1 root root  1248 Apr  2  2024 futimesat.2.gz
+-rw-r--r-- 1 root root  1262 Apr  2  2024 get_kernel_syms.2.gz
+-rw-r--r-- 1 root root  2091 Apr  2  2024 get_mempolicy.2.gz
+-rw-r--r-- 1 root root  1845 Apr  2  2024 get_robust_list.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 get_thread_area.2.gz -> set_thread_area.2.gz
+-rw-r--r-- 1 root root  2038 Apr  2  2024 getcpu.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 getcwd.2.gz -> ../man3/getcwd.3.gz
+-rw-r--r-- 1 root root  3246 Apr  2  2024 getdents.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 getdents64.2.gz -> getdents.2.gz
+-rw-r--r-- 1 root root  1401 Apr  2  2024 getdomainname.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 getegid.2.gz -> getgid.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 getegid32.2.gz -> getegid.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 geteuid.2.gz -> getuid.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 geteuid32.2.gz -> geteuid.2.gz
+-rw-r--r-- 1 root root   772 Apr  2  2024 getgid.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 getgid32.2.gz -> getgid.2.gz
+-rw-r--r-- 1 root root  2244 Apr  2  2024 getgroups.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 getgroups32.2.gz -> getgroups.2.gz
+-rw-r--r-- 1 root root  2001 Apr  2  2024 gethostname.2.gz
+-rw-r--r-- 1 root root  3221 Apr  2  2024 getitimer.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 getmsg.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  1140 Apr  2  2024 getpagesize.2.gz
+-rw-r--r-- 1 root root  1458 Apr  2  2024 getpeername.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 getpgid.2.gz -> setpgid.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 getpgrp.2.gz -> setpgid.2.gz
+-rw-r--r-- 1 root root  1930 Apr  2  2024 getpid.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 getpmsg.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 getppid.2.gz -> getpid.2.gz
+-rw-r--r-- 1 root root  2481 Apr  2  2024 getpriority.2.gz
+-rw-r--r-- 1 root root  2636 Apr  2  2024 getrandom.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 getresgid.2.gz -> getresuid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 getresgid32.2.gz -> getresgid.2.gz
+-rw-r--r-- 1 root root   917 Apr  2  2024 getresuid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 getresuid32.2.gz -> getresuid.2.gz
+-rw-r--r-- 1 root root  8779 Apr  2  2024 getrlimit.2.gz
+-rw-r--r-- 1 root root  2869 Apr  2  2024 getrusage.2.gz
+-rw-r--r-- 1 root root   915 Apr  2  2024 getsid.2.gz
+-rw-r--r-- 1 root root  1114 Apr  2  2024 getsockname.2.gz
+-rw-r--r-- 1 root root  2004 Apr  2  2024 getsockopt.2.gz
+-rw-r--r-- 1 root root   917 Apr  2  2024 gettid.2.gz
+-rw-r--r-- 1 root root  3230 Apr  2  2024 gettimeofday.2.gz
+-rw-r--r-- 1 root root   847 Apr  2  2024 getuid.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 getuid32.2.gz -> getuid.2.gz
+-rw-r--r-- 1 root root  1197 Apr  2  2024 getunwind.2.gz
+-rw-r--r-- 1 root root  1701 Apr  2  2024 getxattr.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 gtty.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root   722 Apr  2  2024 idle.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inb.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inb_p.2.gz -> outb.2.gz
+-rw-r--r-- 1 root root  3773 Apr  2  2024 init_module.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inl.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inl_p.2.gz -> outb.2.gz
+-rw-r--r-- 1 root root  1402 Apr  2  2024 inotify_add_watch.2.gz
+-rw-r--r-- 1 root root  1064 Apr  2  2024 inotify_init.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 inotify_init1.2.gz -> inotify_init.2.gz
+-rw-r--r-- 1 root root   728 Apr  2  2024 inotify_rm_watch.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 insb.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 insl.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 insw.2.gz -> outb.2.gz
+-rw-r--r-- 1 root root  1725 Apr  2  2024 intro.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inw.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 inw_p.2.gz -> outb.2.gz
+-rw-r--r-- 1 root root  1271 Apr  2  2024 io_cancel.2.gz
+-rw-r--r-- 1 root root  1138 Apr  2  2024 io_destroy.2.gz
+-rw-r--r-- 1 root root  1550 Apr  2  2024 io_getevents.2.gz
+-rw-r--r-- 1 root root  1364 Apr  2  2024 io_setup.2.gz
+-rw-r--r-- 1 root root  2657 Apr  2  2024 io_submit.2.gz
+-rw-r--r-- 1 root root  2536 Apr  2  2024 ioctl.2.gz
+-rw-r--r-- 1 root root  6953 Apr  2  2024 ioctl_console.2.gz
+-rw-r--r-- 1 root root  3191 Apr  2  2024 ioctl_fat.2.gz
+lrwxrwxrwx 1 root root    23 Apr  2  2024 ioctl_ficlone.2.gz -> ioctl_ficlonerange.2.gz
+-rw-r--r-- 1 root root  1606 Apr  2  2024 ioctl_ficlonerange.2.gz
+-rw-r--r-- 1 root root  2244 Apr  2  2024 ioctl_fideduperange.2.gz
+-rw-r--r-- 1 root root   998 Apr  2  2024 ioctl_fslabel.2.gz
+-rw-r--r-- 1 root root  3498 Apr  2  2024 ioctl_getfsmap.2.gz
+-rw-r--r-- 1 root root  2458 Apr  2  2024 ioctl_iflags.2.gz
+-rw-r--r-- 1 root root  2844 Apr  2  2024 ioctl_ns.2.gz
+-rw-r--r-- 1 root root  1758 Apr  2  2024 ioctl_pagemap_scan.2.gz
+-rw-r--r-- 1 root root   812 Apr  2  2024 ioctl_pipe.2.gz
+-rw-r--r-- 1 root root  6694 Apr  2  2024 ioctl_tty.2.gz
+-rw-r--r-- 1 root root  6168 Apr  2  2024 ioctl_userfaultfd.2.gz
+-rw-r--r-- 1 root root  1397 Apr  2  2024 ioperm.2.gz
+-rw-r--r-- 1 root root  1362 Apr  2  2024 iopl.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 ioprio_get.2.gz -> ioprio_set.2.gz
+-rw-r--r-- 1 root root  3871 Apr  2  2024 ioprio_set.2.gz
+-rw-r--r-- 1 root root   921 Apr  2  2024 ipc.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 isastream.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  3476 Apr  2  2024 kcmp.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 kexec_file_load.2.gz -> kexec_load.2.gz
+-rw-r--r-- 1 root root  3208 Apr  2  2024 kexec_load.2.gz
+-rw-r--r-- 1 root root 15771 Apr  2  2024 keyctl.2.gz
+-rw-r--r-- 1 root root  2312 Apr  2  2024 kill.2.gz
+-rw-r--r-- 1 root root  1325 Apr  2  2024 landlock_add_rule.2.gz
+-rw-r--r-- 1 root root  1344 Apr  2  2024 landlock_create_ruleset.2.gz
+-rw-r--r-- 1 root root  1567 Apr  2  2024 landlock_restrict_self.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 lchown.2.gz -> chown.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 lchown32.2.gz -> lchown.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 lgetxattr.2.gz -> getxattr.2.gz
+-rw-r--r-- 1 root root  3689 Apr  2  2024 link.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 linkat.2.gz -> link.2.gz
+-rw-r--r-- 1 root root  1990 Apr  2  2024 listen.2.gz
+-rw-r--r-- 1 root root  3139 Apr  2  2024 listxattr.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 llistxattr.2.gz -> listxattr.2.gz
+-rw-r--r-- 1 root root  1103 Apr  2  2024 llseek.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 lock.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  1139 Apr  2  2024 lookup_dcookie.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 lremovexattr.2.gz -> removexattr.2.gz
+-rw-r--r-- 1 root root  2842 Apr  2  2024 lseek.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 lsetxattr.2.gz -> setxattr.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 lstat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 lstat64.2.gz -> lstat.2.gz
+-rw-r--r-- 1 root root  9021 Apr  2  2024 madvise.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 madvise1.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  4585 Apr  2  2024 mbind.2.gz
+-rw-r--r-- 1 root root  3796 Apr  2  2024 membarrier.2.gz
+-rw-r--r-- 1 root root  5595 Apr  2  2024 memfd_create.2.gz
+-rw-r--r-- 1 root root  2611 Apr  2  2024 memfd_secret.2.gz
+-rw-r--r-- 1 root root  1900 Apr  2  2024 migrate_pages.2.gz
+-rw-r--r-- 1 root root  1936 Apr  2  2024 mincore.2.gz
+-rw-r--r-- 1 root root  2350 Apr  2  2024 mkdir.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 mkdirat.2.gz -> mkdir.2.gz
+-rw-r--r-- 1 root root  2887 Apr  2  2024 mknod.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 mknodat.2.gz -> mknod.2.gz
+-rw-r--r-- 1 root root  5186 Apr  2  2024 mlock.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 mlock2.2.gz -> mlock.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 mlockall.2.gz -> mlock.2.gz
+-rw-r--r-- 1 root root 10701 Apr  2  2024 mmap.2.gz
+-rw-r--r-- 1 root root  1213 Apr  2  2024 mmap2.2.gz
+-rw-r--r-- 1 root root  2088 Apr  2  2024 modify_ldt.2.gz
+-rw-r--r-- 1 root root  8910 Apr  2  2024 mount.2.gz
+-rw-r--r-- 1 root root  9118 Apr  2  2024 mount_setattr.2.gz
+-rw-r--r-- 1 root root  2930 Apr  2  2024 move_pages.2.gz
+-rw-r--r-- 1 root root  4003 Apr  2  2024 mprotect.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 mpx.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root   540 Apr  2  2024 mq_getsetattr.2.gz
+lrwxrwxrwx 1 root root    22 Apr  2  2024 mq_notify.2.gz -> ../man3/mq_notify.3.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 mq_open.2.gz -> ../man3/mq_open.3.gz
+lrwxrwxrwx 1 root root    28 Apr  2  2024 mq_timedreceive.2.gz -> ../man3/mq_timedreceive.3.gz
+lrwxrwxrwx 1 root root    25 Apr  2  2024 mq_timedsend.2.gz -> ../man3/mq_timedsend.3.gz
+lrwxrwxrwx 1 root root    22 Apr  2  2024 mq_unlink.2.gz -> ../man3/mq_unlink.3.gz
+-rw-r--r-- 1 root root  3557 Apr  2  2024 mremap.2.gz
+-rw-r--r-- 1 root root  3561 Apr  2  2024 msgctl.2.gz
+-rw-r--r-- 1 root root  2075 Apr  2  2024 msgget.2.gz
+-rw-r--r-- 1 root root  5207 Apr  2  2024 msgop.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 msgrcv.2.gz -> msgop.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 msgsnd.2.gz -> msgop.2.gz
+-rw-r--r-- 1 root root  1671 Apr  2  2024 msync.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 munlock.2.gz -> mlock.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 munlockall.2.gz -> mlock.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 munmap.2.gz -> mmap.2.gz
+lrwxrwxrwx 1 root root    22 Apr  2  2024 name_to_handle_at.2.gz -> open_by_handle_at.2.gz
+-rw-r--r-- 1 root root  2631 Apr  2  2024 nanosleep.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 newfstatat.2.gz -> fstatat.2.gz
+-rw-r--r-- 1 root root   921 Apr  2  2024 nfsservctl.2.gz
+-rw-r--r-- 1 root root  1517 Apr  2  2024 nice.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 oldfstat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 oldlstat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 oldolduname.2.gz -> uname.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 oldstat.2.gz -> stat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 olduname.2.gz -> uname.2.gz
+-rw-r--r-- 1 root root 16730 Apr  2  2024 open.2.gz
+-rw-r--r-- 1 root root  6676 Apr  2  2024 open_by_handle_at.2.gz
+-rw-r--r-- 1 root root   718 Apr  2  2024 open_how.2type.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 openat.2.gz -> open.2.gz
+-rw-r--r-- 1 root root  5020 Apr  2  2024 openat2.2.gz
+-rw-r--r-- 1 root root  1087 Apr  2  2024 outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outb_p.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outl.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outl_p.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outsb.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outsl.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outsw.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outw.2.gz -> outb.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 outw_p.2.gz -> outb.2.gz
+-rw-r--r-- 1 root root   699 Apr  2  2024 pause.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 pciconfig_iobase.2.gz -> pciconfig_read.2.gz
+-rw-r--r-- 1 root root  1146 Apr  2  2024 pciconfig_read.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 pciconfig_write.2.gz -> pciconfig_read.2.gz
+-rw-r--r-- 1 root root 32463 Apr  2  2024 perf_event_open.2.gz
+-rw-r--r-- 1 root root  1677 Apr  2  2024 perfmonctl.2.gz
+-rw-r--r-- 1 root root  2926 Apr  2  2024 personality.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 phys.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  1560 Apr  2  2024 pidfd_getfd.2.gz
+-rw-r--r-- 1 root root  2623 Apr  2  2024 pidfd_open.2.gz
+-rw-r--r-- 1 root root  2198 Apr  2  2024 pidfd_send_signal.2.gz
+-rw-r--r-- 1 root root  3463 Apr  2  2024 pipe.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 pipe2.2.gz -> pipe.2.gz
+-rw-r--r-- 1 root root  4361 Apr  2  2024 pivot_root.2.gz
+-rw-r--r-- 1 root root  1460 Apr  2  2024 pkey_alloc.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 pkey_free.2.gz -> pkey_alloc.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 pkey_mprotect.2.gz -> mprotect.2.gz
+-rw-r--r-- 1 root root  5673 Apr  2  2024 poll.2.gz
+-rw-r--r-- 1 root root  2957 Apr  2  2024 posix_fadvise.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 ppoll.2.gz -> poll.2.gz
+-rw-r--r-- 1 root root 20347 Apr  2  2024 prctl.2.gz
+-rw-r--r-- 1 root root  1440 Apr  2  2024 pread.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 pread64.2.gz -> pread.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 preadv.2.gz -> readv.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 preadv2.2.gz -> readv.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 prlimit.2.gz -> getrlimit.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 prlimit64.2.gz -> getrlimit.2.gz
+-rw-r--r-- 1 root root  1974 Apr  2  2024 process_madvise.2.gz
+-rw-r--r-- 1 root root  3021 Apr  2  2024 process_vm_readv.2.gz
+lrwxrwxrwx 1 root root    21 Apr  2  2024 process_vm_writev.2.gz -> process_vm_readv.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 prof.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 pselect.2.gz -> select.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 pselect6.2.gz -> select.2.gz
+-rw-r--r-- 1 root root 25108 Apr  2  2024 ptrace.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 putmsg.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 putpmsg.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 pwrite.2.gz -> pread.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 pwrite64.2.gz -> pwrite.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 pwritev.2.gz -> readv.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 pwritev2.2.gz -> readv.2.gz
+-rw-r--r-- 1 root root  1851 Apr  2  2024 query_module.2.gz
+-rw-r--r-- 1 root root  6226 Apr  2  2024 quotactl.2.gz
+-rw-r--r-- 1 root root  3138 Apr  2  2024 read.2.gz
+-rw-r--r-- 1 root root  1412 Apr  2  2024 readahead.2.gz
+-rw-r--r-- 1 root root  1336 Apr  2  2024 readdir.2.gz
+-rw-r--r-- 1 root root  3384 Apr  2  2024 readlink.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 readlinkat.2.gz -> readlink.2.gz
+-rw-r--r-- 1 root root  4072 Apr  2  2024 readv.2.gz
+-rw-r--r-- 1 root root  2549 Apr  2  2024 reboot.2.gz
+-rw-r--r-- 1 root root  5714 Apr  2  2024 recv.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 recvfrom.2.gz -> recv.2.gz
+-rw-r--r-- 1 root root  2852 Apr  2  2024 recvmmsg.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 recvmsg.2.gz -> recv.2.gz
+-rw-r--r-- 1 root root  2021 Apr  2  2024 remap_file_pages.2.gz
+-rw-r--r-- 1 root root  1175 Apr  2  2024 removexattr.2.gz
+-rw-r--r-- 1 root root  5142 Apr  2  2024 rename.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 renameat.2.gz -> rename.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 renameat2.2.gz -> rename.2.gz
+-rw-r--r-- 1 root root  5489 Apr  2  2024 request_key.2.gz
+-rw-r--r-- 1 root root  1754 Apr  2  2024 restart_syscall.2.gz
+-rw-r--r-- 1 root root  1382 Apr  2  2024 rmdir.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 rt_sigaction.2.gz -> sigaction.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 rt_sigpending.2.gz -> sigpending.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 rt_sigprocmask.2.gz -> sigprocmask.2.gz
+-rw-r--r-- 1 root root  1922 Apr  2  2024 rt_sigqueueinfo.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 rt_sigreturn.2.gz -> sigreturn.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 rt_sigsuspend.2.gz -> sigsuspend.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 rt_sigtimedwait.2.gz -> sigtimedwait.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 rt_tgsigqueueinfo.2.gz -> rt_sigqueueinfo.2.gz
+-rw-r--r-- 1 root root  2181 Apr  2  2024 s390_guarded_storage.2.gz
+lrwxrwxrwx 1 root root    24 Apr  2  2024 s390_pci_mmio_read.2.gz -> s390_pci_mmio_write.2.gz
+-rw-r--r-- 1 root root  1034 Apr  2  2024 s390_pci_mmio_write.2.gz
+-rw-r--r-- 1 root root  1319 Apr  2  2024 s390_runtime_instr.2.gz
+-rw-r--r-- 1 root root  1575 Apr  2  2024 s390_sthyi.2.gz
+lrwxrwxrwx 1 root root     8 Apr  2  2024 sbrk.2.gz -> brk.2.gz
+-rw-r--r-- 1 root root  1163 Apr  2  2024 sched_get_priority_max.2.gz
+lrwxrwxrwx 1 root root    27 Apr  2  2024 sched_get_priority_min.2.gz -> sched_get_priority_max.2.gz
+lrwxrwxrwx 1 root root    22 Apr  2  2024 sched_getaffinity.2.gz -> sched_setaffinity.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 sched_getattr.2.gz -> sched_setattr.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 sched_getparam.2.gz -> sched_setparam.2.gz
+lrwxrwxrwx 1 root root    23 Apr  2  2024 sched_getscheduler.2.gz -> sched_setscheduler.2.gz
+-rw-r--r-- 1 root root  1525 Apr  2  2024 sched_rr_get_interval.2.gz
+-rw-r--r-- 1 root root  4577 Apr  2  2024 sched_setaffinity.2.gz
+-rw-r--r-- 1 root root  3801 Apr  2  2024 sched_setattr.2.gz
+-rw-r--r-- 1 root root  1251 Apr  2  2024 sched_setparam.2.gz
+-rw-r--r-- 1 root root  2255 Apr  2  2024 sched_setscheduler.2.gz
+-rw-r--r-- 1 root root  1011 Apr  2  2024 sched_yield.2.gz
+-rw-r--r-- 1 root root 12732 Apr  2  2024 seccomp.2.gz
+-rw-r--r-- 1 root root 18493 Apr  2  2024 seccomp_unotify.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 security.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  7062 Apr  2  2024 select.2.gz
+-rw-r--r-- 1 root root  5779 Apr  2  2024 select_tut.2.gz
+-rw-r--r-- 1 root root  4860 Apr  2  2024 semctl.2.gz
+-rw-r--r-- 1 root root  3869 Apr  2  2024 semget.2.gz
+-rw-r--r-- 1 root root  4623 Apr  2  2024 semop.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 semtimedop.2.gz -> semop.2.gz
+-rw-r--r-- 1 root root  5045 Apr  2  2024 send.2.gz
+-rw-r--r-- 1 root root  2607 Apr  2  2024 sendfile.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 sendfile64.2.gz -> sendfile.2.gz
+-rw-r--r-- 1 root root  2452 Apr  2  2024 sendmmsg.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 sendmsg.2.gz -> send.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 sendto.2.gz -> send.2.gz
+-rw-r--r-- 1 root root  3163 Apr  2  2024 set_mempolicy.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 set_robust_list.2.gz -> get_robust_list.2.gz
+-rw-r--r-- 1 root root  2358 Apr  2  2024 set_thread_area.2.gz
+-rw-r--r-- 1 root root  1032 Apr  2  2024 set_tid_address.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 setdomainname.2.gz -> getdomainname.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 setegid.2.gz -> seteuid.2.gz
+-rw-r--r-- 1 root root  1514 Apr  2  2024 seteuid.2.gz
+-rw-r--r-- 1 root root  1585 Apr  2  2024 setfsgid.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 setfsgid32.2.gz -> setfsgid.2.gz
+-rw-r--r-- 1 root root  1953 Apr  2  2024 setfsuid.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 setfsuid32.2.gz -> setfsuid.2.gz
+-rw-r--r-- 1 root root  1327 Apr  2  2024 setgid.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 setgid32.2.gz -> setgid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setgroups.2.gz -> getgroups.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setgroups32.2.gz -> setgroups.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 sethostname.2.gz -> gethostname.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setitimer.2.gz -> getitimer.2.gz
+-rw-r--r-- 1 root root  3956 Apr  2  2024 setns.2.gz
+-rw-r--r-- 1 root root  2866 Apr  2  2024 setpgid.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 setpgrp.2.gz -> setpgid.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 setpriority.2.gz -> getpriority.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 setregid.2.gz -> setreuid.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 setregid32.2.gz -> setregid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setresgid.2.gz -> setresuid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setresgid32.2.gz -> setresgid.2.gz
+-rw-r--r-- 1 root root  1850 Apr  2  2024 setresuid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setresuid32.2.gz -> setresuid.2.gz
+-rw-r--r-- 1 root root  2394 Apr  2  2024 setreuid.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 setreuid32.2.gz -> setreuid.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 setrlimit.2.gz -> getrlimit.2.gz
+-rw-r--r-- 1 root root  1343 Apr  2  2024 setsid.2.gz
+lrwxrwxrwx 1 root root    15 Apr  2  2024 setsockopt.2.gz -> getsockopt.2.gz
+lrwxrwxrwx 1 root root    17 Apr  2  2024 settimeofday.2.gz -> gettimeofday.2.gz
+-rw-r--r-- 1 root root  2068 Apr  2  2024 setuid.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 setuid32.2.gz -> setuid.2.gz
+-rw-r--r-- 1 root root   905 Apr  2  2024 setup.2.gz
+-rw-r--r-- 1 root root  1670 Apr  2  2024 setxattr.2.gz
+-rw-r--r-- 1 root root   905 Apr  2  2024 sgetmask.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 shmat.2.gz -> shmop.2.gz
+-rw-r--r-- 1 root root  4528 Apr  2  2024 shmctl.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 shmdt.2.gz -> shmop.2.gz
+-rw-r--r-- 1 root root  4061 Apr  2  2024 shmget.2.gz
+-rw-r--r-- 1 root root  4457 Apr  2  2024 shmop.2.gz
+-rw-r--r-- 1 root root  1195 Apr  2  2024 shutdown.2.gz
+-rw-r--r-- 1 root root 10077 Apr  2  2024 sigaction.2.gz
+-rw-r--r-- 1 root root  4070 Apr  2  2024 sigaltstack.2.gz
+-rw-r--r-- 1 root root  2763 Apr  2  2024 signal.2.gz
+-rw-r--r-- 1 root root  5039 Apr  2  2024 signalfd.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 signalfd4.2.gz -> signalfd.2.gz
+-rw-r--r-- 1 root root  1407 Apr  2  2024 sigpending.2.gz
+-rw-r--r-- 1 root root  2259 Apr  2  2024 sigprocmask.2.gz
+-rw-r--r-- 1 root root  2120 Apr  2  2024 sigreturn.2.gz
+-rw-r--r-- 1 root root  1487 Apr  2  2024 sigsuspend.2.gz
+lrwxrwxrwx 1 root root    16 Apr  2  2024 sigtimedwait.2.gz -> sigwaitinfo.2.gz
+-rw-r--r-- 1 root root  2345 Apr  2  2024 sigwaitinfo.2.gz
+-rw-r--r-- 1 root root  4781 Apr  2  2024 socket.2.gz
+-rw-r--r-- 1 root root  1347 Apr  2  2024 socketcall.2.gz
+-rw-r--r-- 1 root root  1416 Apr  2  2024 socketpair.2.gz
+-rw-r--r-- 1 root root  2999 Apr  2  2024 splice.2.gz
+-rw-r--r-- 1 root root  2906 Apr  2  2024 spu_create.2.gz
+-rw-r--r-- 1 root root  2748 Apr  2  2024 spu_run.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 ssetmask.2.gz -> sgetmask.2.gz
+-rw-r--r-- 1 root root  5230 Apr  2  2024 stat.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 stat64.2.gz -> stat.2.gz
+-rw-r--r-- 1 root root  4286 Apr  2  2024 statfs.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 statfs64.2.gz -> statfs.2.gz
+-rw-r--r-- 1 root root  6184 Apr  2  2024 statx.2.gz
+-rw-r--r-- 1 root root   966 Apr  2  2024 stime.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 stty.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  1949 Apr  2  2024 subpage_prot.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 swapoff.2.gz -> swapon.2.gz
+-rw-r--r-- 1 root root  2420 Apr  2  2024 swapon.2.gz
+-rw-r--r-- 1 root root  2519 Apr  2  2024 symlink.2.gz
+lrwxrwxrwx 1 root root    12 Apr  2  2024 symlinkat.2.gz -> symlink.2.gz
+-rw-r--r-- 1 root root  1769 Apr  2  2024 sync.2.gz
+-rw-r--r-- 1 root root  2510 Apr  2  2024 sync_file_range.2.gz
+lrwxrwxrwx 1 root root    20 Apr  2  2024 sync_file_range2.2.gz -> sync_file_range.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 syncfs.2.gz -> sync.2.gz
+-rw-r--r-- 1 root root  4334 Apr  2  2024 syscall.2.gz
+-rw-r--r-- 1 root root 10013 Apr  2  2024 syscalls.2.gz
+-rw-r--r-- 1 root root  1985 Apr  2  2024 sysctl.2.gz
+-rw-r--r-- 1 root root  1059 Apr  2  2024 sysfs.2.gz
+-rw-r--r-- 1 root root  1328 Apr  2  2024 sysinfo.2.gz
+-rw-r--r-- 1 root root  3803 Apr  2  2024 syslog.2.gz
+-rw-r--r-- 1 root root  1966 Apr  2  2024 tee.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 tgkill.2.gz -> tkill.2.gz
+-rw-r--r-- 1 root root  1638 Apr  2  2024 time.2.gz
+-rw-r--r-- 1 root root  4961 Apr  2  2024 timer_create.2.gz
+-rw-r--r-- 1 root root   702 Apr  2  2024 timer_delete.2.gz
+-rw-r--r-- 1 root root  1830 Apr  2  2024 timer_getoverrun.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 timer_gettime.2.gz -> timer_settime.2.gz
+-rw-r--r-- 1 root root  1965 Apr  2  2024 timer_settime.2.gz
+-rw-r--r-- 1 root root  5850 Apr  2  2024 timerfd_create.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 timerfd_gettime.2.gz -> timerfd_create.2.gz
+lrwxrwxrwx 1 root root    19 Apr  2  2024 timerfd_settime.2.gz -> timerfd_create.2.gz
+-rw-r--r-- 1 root root  2504 Apr  2  2024 times.2.gz
+-rw-r--r-- 1 root root  1748 Apr  2  2024 tkill.2.gz
+-rw-r--r-- 1 root root  2771 Apr  2  2024 truncate.2.gz
+lrwxrwxrwx 1 root root    13 Apr  2  2024 truncate64.2.gz -> truncate.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 tuxcall.2.gz -> unimplemented.2.gz
+lrwxrwxrwx 1 root root    14 Apr  2  2024 ugetrlimit.2.gz -> getrlimit.2.gz
+-rw-r--r-- 1 root root  1882 Apr  2  2024 umask.2.gz
+-rw-r--r-- 1 root root  2543 Apr  2  2024 umount.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 umount2.2.gz -> umount.2.gz
+-rw-r--r-- 1 root root  1580 Apr  2  2024 uname.2.gz
+-rw-r--r-- 1 root root   622 Apr  2  2024 unimplemented.2.gz
+-rw-r--r-- 1 root root  2732 Apr  2  2024 unlink.2.gz
+lrwxrwxrwx 1 root root    11 Apr  2  2024 unlinkat.2.gz -> unlink.2.gz
+-rw-r--r-- 1 root root  4786 Apr  2  2024 unshare.2.gz
+-rw-r--r-- 1 root root  1587 Apr  2  2024 uselib.2.gz
+-rw-r--r-- 1 root root  9073 Apr  2  2024 userfaultfd.2.gz
+-rw-r--r-- 1 root root  1292 Apr  2  2024 ustat.2.gz
+-rw-r--r-- 1 root root  1641 Apr  2  2024 utime.2.gz
+-rw-r--r-- 1 root root  4835 Apr  2  2024 utimensat.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 utimes.2.gz -> utime.2.gz
+-rw-r--r-- 1 root root  4042 Apr  2  2024 vfork.2.gz
+-rw-r--r-- 1 root root   814 Apr  2  2024 vhangup.2.gz
+-rw-r--r-- 1 root root   826 Apr  2  2024 vm86.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 vm86old.2.gz -> vm86.2.gz
+-rw-r--r-- 1 root root  1924 Apr  2  2024 vmsplice.2.gz
+lrwxrwxrwx 1 root root    18 Apr  2  2024 vserver.2.gz -> unimplemented.2.gz
+-rw-r--r-- 1 root root  6951 Apr  2  2024 wait.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 wait3.2.gz -> wait4.2.gz
+-rw-r--r-- 1 root root  1505 Apr  2  2024 wait4.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 waitid.2.gz -> wait.2.gz
+lrwxrwxrwx 1 root root     9 Apr  2  2024 waitpid.2.gz -> wait.2.gz
+-rw-r--r-- 1 root root  4090 Apr  2  2024 write.2.gz
+lrwxrwxrwx 1 root root    10 Apr  2  2024 writev.2.gz -> readv.2.gz

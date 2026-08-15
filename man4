@@ -1,0 +1,41 @@
+total 164
+drwxr-xr-x 2 root root 4096 Mar 11 12:00 .
+drwxr-xr-x 1 root root 4096 Mar 11 12:00 ..
+-rw-r--r-- 1 root root 3849 Apr  2  2024 cciss.4.gz
+-rw-r--r-- 1 root root 9234 Apr  2  2024 console_codes.4.gz
+-rw-r--r-- 1 root root   80 Apr  2  2024 console_ioctl.4.gz
+-rw-r--r-- 1 root root 1130 Apr  2  2024 cpuid.4.gz
+-rw-r--r-- 1 root root 1502 Apr  2  2024 dsp56k.4.gz
+-rw-r--r-- 1 root root  518 Apr  2  2024 full.4.gz
+-rw-r--r-- 1 root root 4489 Apr  2  2024 fuse.4.gz
+-rw-r--r-- 1 root root 1028 Apr  2  2024 hd.4.gz
+-rw-r--r-- 1 root root 2402 Apr  2  2024 hpsa.4.gz
+-rw-r--r-- 1 root root 4263 Apr  2  2024 initrd.4.gz
+-rw-r--r-- 1 root root  447 Apr  2  2024 intro.4.gz
+lrwxrwxrwx 1 root root    8 Apr  2  2024 kmem.4.gz -> mem.4.gz
+-rw-r--r-- 1 root root 4244 Apr  2  2024 lirc.4.gz
+lrwxrwxrwx 1 root root    9 Apr  2  2024 loop-control.4.gz -> loop.4.gz
+-rw-r--r-- 1 root root 3427 Apr  2  2024 loop.4.gz
+-rw-r--r-- 1 root root 1875 Apr  2  2024 lp.4.gz
+-rw-r--r-- 1 root root  927 Apr  2  2024 mem.4.gz
+-rw-r--r-- 1 root root 1847 Apr  2  2024 mouse.4.gz
+-rw-r--r-- 1 root root  714 Apr  2  2024 msr.4.gz
+-rw-r--r-- 1 root root  700 Apr  2  2024 null.4.gz
+lrwxrwxrwx 1 root root    8 Apr  2  2024 port.4.gz -> mem.4.gz
+lrwxrwxrwx 1 root root    8 Apr  2  2024 ptmx.4.gz -> pts.4.gz
+-rw-r--r-- 1 root root 1048 Apr  2  2024 pts.4.gz
+-rw-r--r-- 1 root root  404 Apr  2  2024 ram.4.gz
+-rw-r--r-- 1 root root 4010 Apr  2  2024 random.4.gz
+-rw-r--r-- 1 root root 3817 Apr  2  2024 rtc.4.gz
+-rw-r--r-- 1 root root 1274 Apr  2  2024 sd.4.gz
+-rw-r--r-- 1 root root 3516 Apr  2  2024 smartpqi.4.gz
+-rw-r--r-- 1 root root 9696 Apr  2  2024 st.4.gz
+-rw-r--r-- 1 root root  833 Apr  2  2024 tty.4.gz
+-rw-r--r-- 1 root root  474 Apr  2  2024 ttyS.4.gz
+-rw-r--r-- 1 root root   76 Apr  2  2024 tty_ioctl.4.gz
+lrwxrwxrwx 1 root root   11 Apr  2  2024 urandom.4.gz -> random.4.gz
+-rw-r--r-- 1 root root 1784 Apr  2  2024 vcs.4.gz
+lrwxrwxrwx 1 root root    8 Apr  2  2024 vcsa.4.gz -> vcs.4.gz
+-rw-r--r-- 1 root root 1070 Apr  2  2024 veth.4.gz
+-rw-r--r-- 1 root root 1996 Apr  2  2024 wavelan.4.gz
+lrwxrwxrwx 1 root root    9 Apr  2  2024 zero.4.gz -> null.4.gz
