@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://android.com"
+    package="com.example.nativeapp">
+
+    <!-- Tell Android this app does not require a standard Java application layer -->
+    <application 
+        android:hasCode="false" 
+        android:label="My Pure C App">
+
+        <!-- 1. Launch Google's pre-made NativeActivity class -->
+        <activity android:name="android.app.NativeActivity"
+                  android:label="My Pure C App"
+                  android:configChanges="orientation|keyboardHidden|screenSize">
+            
+            <!-- 2. Tell NativeActivity the name of your compiled C library (.so file) -->
+            <!-- If your library is libmy_c_code.so, write "my_c_code" here -->
+            <meta-data android:name="android.app.lib_name" 
+                       android:value="my_c_code" />
+
+            <!-- Make this the main icon the user clicks to launch the app -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
+
