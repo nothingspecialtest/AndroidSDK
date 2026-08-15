@@ -1,0 +1,21 @@
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // This will display "Hello from pure C inside the NDK!" on the phone screen
+        val messageFromC = stringFromC()
+    }
+
+    // 1. Tell Android to load your compiled file (skip the "lib" prefix and ".so" suffix)
+    companion object {
+        init {
+            System.loadLibrary("mymagic")
+        }
+    }
+
+    // 2. Declare the C function so Kotlin knows it exists
+    external fun stringFromC(): String
+}
+
